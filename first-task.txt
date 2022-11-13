@@ -1,0 +1,13 @@
+1) Prepare an anchor tag that takes them to wikipedia.
+2) Add six headings in the html body with the text 'Welcome to html class'. Start with the most important heading to the least important headings 
+3) Mark up the text with the appropriate tags:
+    "Universal Studios Presents" is the most important heading.
+    "Jurassic Park" is the next most important heading.
+    "About" is the third most important heading.
+    "Welcome to HatchDev" with the least important heading.
+
+Start with the most important heading (the largest) and end with the least important heading (the smallest).
+4) Set an image and reduce the width and height to 250px and height of 400px
+5) List out your name, gender and hobbies using the ordered list.
+6) Create a table tag that contains your name, school and department.
+7) Build a form that has labels and input of first name, last name, middle name, age alongside placeholders
