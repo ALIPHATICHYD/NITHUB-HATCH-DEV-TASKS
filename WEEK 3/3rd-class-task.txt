@@ -2,4 +2,4 @@ Class Task
 
 1. Build a landing Page with the proper semantic HTML tags and in the main section of the site add a semantic table that contains 10 items of your choice
 
-2. Before the footer of the site add a Form that collects normal details.
+2. Before the footer of the site add a Form that collects normal details from a user and then add a submit button.
