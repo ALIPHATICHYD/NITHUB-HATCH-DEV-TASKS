@@ -1,69 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 3</title>
-</head>
-<body>
-    <!-- HTML - Semantic HTML
-    He wants to build a simple landing page with semantic HTML
-    header
-    main
-    footer -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hatchddev</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- page header -->
+      <header>
+        <nav>
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUQEBAVEBUVDxUVFQ8VFQ8PFQ8VFRUWFhUWFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFi0dHR8tLS0tLS0tLS0rKy8tLS0tLS0tLS0tLS0tLS0tKy0rLS0tLSsrLS0rLS0tLS0tLS0rLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAABAgAFAwQGBwj/xAA8EAACAQIEAwYEBAUCBwEAAAAAAQIDEQQSITEFQVEGImFxgZETMkKhUrHB8Acj0eHxFIIkM1NiY3KiFf/EABkBAAMBAQEAAAAAAAAAAAAAAAABAwIEBf/EACMRAQEAAgICAgMBAQEAAAAAAAABAhEDIRIxBDITQWFRcSL/2gAMAwEAAhEDEQA/APFrBsRBNABkAZABCgBQwZIOUMI30Nym1Hu273o7eQrdHJtkp8PlaMpaLbdbX/z7GapWVNP4ccza1k1BuNufgzBjcW+6pb5bKKu8qXX2MMm7JJb7Lnrtcnbb7Vkk9MUauru+943fmL8Rp6uxuYfhbmnLNa2vomZP9LFNRlLn6pefsZa8awRr6atPxtqjewlHOnOnL5d1tJJc7LVjYXhUmtIuWm+lreJv4DhE/iKVKLctVa1rXvo+RlWYUcPKUlaf8+D2drv0bT9jdh2WpV45qbUXytpfp4fkb0OzFZLNC8JX0WitzX5jUeBYuF2u7z0eVvXw38hdz0p+PfuOS4z2Yr4dZpweW9s3R9H0KSUbHreDqYunTdLF03UpzVlKSzKbf07e1+Zz3aXs3CVKWIwsHaPelCLc+71iuVuaN4c3esnPycGu44QIZKxDoc4BRCIYSxGMBgCMAwAAACQRFaAMBgAIQggBGEjAEIM0KACwBiWAIggQyABYKIFAERkhEVIyRWqAHj3ZWtr16f0/ubEIW728m7L/AAPhqa1b269EubHlW1zW1atCPT+5DLJ0Y4kjh8rzSt8u9+un5GfD0W/ki5+nUs+E9natWWbEfy4Xvk+p+HgdxgsFSppKEEidydPHw77rjMHwTFVFaMFBdZu1/DQueGdindSr1FK30xVl7s6inVXIzwrC8l5xSMeF4XCCypK3Q28Jw2EG5J7vbSyMlLUz2Htpkyoy0VZ3t+pgjI2aKNRi9LfCV4TTp1YpxkrNNJp3OK7QdmJYKcsRhu9QlJfEp6t0rvWXjGzfkdLFFth6+ZWlrpZ35iyiNne4+be13C5UKuaydOo3KlUWqkuav1T0KI9v7cdk4qlONKLdOUnNU9f5UvxU39PjHZq/Q8Ur0XCThJWcXZroy/Fnua/xx8uGrv8A1jZCEKpjcjIiMAUAzFAIAIACCjWBYRAQNiNBoFIEAgjFYwGAKEhABRkKFADBREMgAxNlUt29NP8AJhpK7S8Szp04yjJ+S9/2/YnndKcc206k36dPBcvsdB2YwGka81dv5V08Soq0viSjTjvJxTtyitTraTypRWiSsQzrr4ce9ryjK5s0ytwFUs4yJO0bmbDS6mu0zPSixw6tcO9ixjBfbwKnBVHddNfcsoy/e5WaRyl2TmPGpyFmLGDe6Hs5N+2xTqm1SqtM16VBm9QoJ6S08dB+4ndQcTiM0Gnvy/f73PE/4jcKjTqKtGNs9rtO6fmntpbU9nx2FaV+Xhr6nnfHJRxHxMPUjmaTy9YuLbi1bzaMY3xu0uTHyjygNhpxs2vEh2uEAEIABgC0AAgAkAAQgQAWAxwMAx2AOKxEAGEggBCEAFSDYKRLABQUwETAM1J2dx51st0npfb1dhaL1XmSNO903zJ5qYLbgSvWUpdG/tY6Js5jhlZRUXzSs99+Z0Xxuhz5uzhum7QrWZcYatmRzlOaLbhdTl9yVdeNXNM3KCX2NLDp9PW+5mqYynT+aSv0VrmpDtkWmHpa9PA34QX4kcdU7URvaNrEXHE3dP7lZIlbt2MqsI+Zo4jisY66Ip6Ndz5sqePxqQWnPmaK9LLFdsJReWK8ra3DhOK4qpayST89jkaM4waus0nstPu3sizo9p4Uv+ZXjGzSyxj8S172vLRJ6P2Y2LY7PB8WxFJ2nLPF7wls/J8imxNLJxBt6Qq0lOPJKVtr+cTXw3aeNVpqaq020nNJwlTb2zK+1+ZccToKdGFW2tGau+fw5uz9pZfczlOuiry/trgoQruVNZVNtuNmu9za5exzx6B2/pudGEo/LTl3ufzfV+XuefMvxXeMcXLj45IRAIUTFisIGgAEJYNgCBRAgAFYwGAAVoYjQAgBmgCIrANYFgAogEEQBkRGFAGSLMuG1bXVmFINOVpfvy/UxnOm8L2ei3FtJ/V/gv8ACYtWRzeK3utNdTNha+xKza2GWq6ilIssLilBNvw06ldg43ivIyQjdvoiOnbLqLqhj6s1ZLKuu1jLU4Ipq85+rskaH+u+HDNa9tEvPZI1sVxvKm5x+NPeNK7yRt4c/X7G8RlevY4/BUIafHjfzNChSeZZJXXuU8uLYjEVbO8U2u5FK2+iWh2PZ7gk4ZqkssorZZe836G7Eccpl3HS9mJ3VpaPZoueLcIjWvHNlvGyfJHOQrOEl4pHT4TEZ0n4bIzjnq6XuG5t57X7O1FUknaMFJr5o3lZ2u2uXh4mjxDsZ8WedTUNV3Unpt6cj0+vw6E9rRb3Vk0ysn2Yjf5pw65ZOFzc/ieWOOU1kruBdlqVKK1abja7snPW9vLXxO14bw3LFxn3oyg4tO1pJqzRWcO4XCjrHNJv6pSlN+7ehcUcY1pbR+6FkNdajjqmCjT+Ng6sc0M6WZ/9Oce6/PT7HkXEcK6VWdJu+Sbjfqk9Ge48Qs8U8yvGpQUbeMZPXzWh452ujbGV10qv8ka4PdifysZ+PG/tTsBGA6HCKGQiMkQCZQWMlgNDIpCBABYDQwGAIQJA0C2A0OKwBADMAjKgkQTJAyIjREAZImSnhZ1NKcXJrpyMcTco1pwg5Qk43lZtO3IWd1ipx4zLLVaNbD1INqpFxfO4uCtm16HSRxM6tLLVtUa2k0k/W25TYvC5L93K01psc8z306M+Lx7np1PDtYK37RvYejmzIpOAVbpp7l9w6vlmr7PQleq6MP8A1i1cRw2pNqNmknfNrZeOpkwvAku9JOTT8bWXkdXBRdrcjahQutkOZKeMjncJw9Q0hThDq0ouXrLkvBMu8NT0yr5Ut/xPmbcMNrqvRO1xq3d0RrdKSepHPY6V3vz9i77P4lS0bV7lFi4au/iZuEw1zLqTntb+O2rLK7+psyrJwvpddeaMXDa6lFZ4p3jaz6/p5mtUg4tpO8eT5rzOiIWd6Zo1V++QJNbmhUqakjVMteI4ik3UjJK+V3v0XO55T/EfDqONlJbVIRn+cX+R7Bh5a684yi/VM8q/iolHFxgmnlw8L+F22b4vsh8m74/+VxbAEh0PPAeIo0RkdEYYoLQzYyDMUCQhA2AEsQZgABYVjCsARgCwGTBBFQxkhJYiYUMGib3Dssr0puymtJfhmvlf6epophTCzc03hl42Vf8ACsLUUpU5K0qav5x6mhxXFuU7NXV7NdS04BxVOUKdXxiqnPK/pfrY2+IcCUKyne6ck7PqceWPjl29Kazw3ipqNCdJqcdY318C2w9boxsRBd6Omi5FfRdmT35DXhXZcLxt9Hv/AFL6jVvbQ4zCPRNF9gsS7WuZi87i/VQx4iV9jU+MRVNiuz8WjjqWt31+xr0OIU6bd2rG5xqEnTahq7aLqed4zgFbO6lRT3uld/oKRnLKydR367ZQi1CMlbw6mOh2orVcRClToSyudnVd7Nc8vXnr4HC4HDTdSKjTlNJ7Wk7+p6jwGPw4rNlUra91Xivwp8y2M3EZlbW1jIZZa7GWjHT05mzWSnHWxq4dWaUhWab302LtK/seG8e4hPEV6laejcrW/Co6JfY90rR0T6M8N7Q0cmKrxXKvP7u/6lOKd1x/Jt1FaAYFi7kBDoUZATLELFiws0ZGKNIUQQYUKAIxGPIRhSC4rGAIFYLGSMLmaNADaSCImMYIUMhUMhwGCiIIzMnY7HgnEJVqeTOnKP0TWv8Atl0ONGp1HF3i3F9VoY5MJlFuHmvHd/p6NWwMqsLuEVJK2ay19TmcRRyOz05GPgvbCrB/CqrPfaW3uNxDETqVM6jZPeO/qjjuNxvbv/JhnjuLLhtW2jLuiua6HN8Ply53L/DT6/tmK3hktqV2PFsODkmHEaPzNRTZa1TQrsRUvv8A5/ubVenZXfsUNTHSnN06MJTkvwq6Xm9jUK39LeM4x0lJR/PoZ/8A9GlHRz9bqy9TRwXZ2VTvYio488kXq/C7/sX+Bw2HopfDw6b5zlac15tlIWsYrZdqKdJrvqSbWmnvc6FVoVoKdN30v6ljgnGS1ivFWXsVtfh9OjLPQi0nvSVsv+1PbyWhqpW9ty2mvS54t2zX/G1//dP/AOInsNHEZt9L7I8e7XyvjK7/APJb2il+hvjnbk+R9VLYjCBlnIVhTAyIAyxHMcTJcZlYjMgrAiBuRgA0YobgAAPCBIRNujSAko0TdhR0HoUTdhS0DTUcXYIQk2UQyFChhkQyETGQzEAwLAGCu7Wa3TOkwVbMk1zRQtdSz4bLu+Tsc3yMetun42WstLGLyy0Lzh9VSVuZQvUzYTEOLvc5p27N6rqsNWyPXZst5pTtNa23RR4WtGcRqNedN91+m5qNbZsfGVT+VF5bvvS3yrm79bFng8PTpQUIRUUvd+L6vxKypi5yV5WWv0q3uzBW4hbTqalP+rDHVeeZ3Ro0+M2ltdMxxpue70NilgqcNba9WsxuUatWWB4nK3RFjQxTk7GphoxdndfYfEzSWis1z/obl2xl02KjUG5PRJN+XU8Vx+I+JUnU/HUlL3bZ6D2x4q44dpOzqdxeT3ftf3R5w0W4p+3Dz3vRQMawrRRArIFgAhTGzGMNwDJmI2Y7huARgZGwAEDGIEjZo0wM9GkWFCiJh6ZZUIDOQ1CgbcaRIOwfig08+CiAJJmQRUxhgUMhUxkMzojAmRsZAb/CJ2k4vZleXXCcE2nfut2cSXN9KtwfeN507aez6owzhbXr9ixwscyyT0kv2mvAw16Li7Nf0Zwb09K47hMBjHB76FzSxqlz5nM1ItaoSOMtvoUnaVtjsK2ITja5io5W8z5bHPwxd1vcyU8Y1szWh5un/wBcrWfua2L4hFRazctjn6/EW1bY01Dm5L7mpid59el5HjVRfLr7lhQ4tdXlLXocg8Q0+622dF2V4W5z+JW1STah48nK3LwN60l+S5VS9p8XKdXI1ZQVkvGVm3+XsVBcdsqeXF1PFRfvFFOjow9Rx8n2qNCsZiNmmSsVjMUCQgCCCEuADYA1yC3HggDJSib1GBhoQN6lAZs1GJvUzWpRM1zTUZnMR1DG2Y5MVNyKIwkJJggohBgyHRCDMQXCQA3eDYN1aqVrpavyR12IoPMpL6VZpdCEFljMpqt4ZXG7jLWw+ZKcXqtn18JeA8IxqxcWrNaNc4shDzbNV7E7kqix+GlTdmrrrzKyrFPZ+hCGsUeSaasotbOw8cdJb2ZCFo5cukljf+1e5jeMfJJe7IQpE6eLlpJS29DuuyOKztJdHfZciEFtXBTfxBpWxEZfior7No5ohDo4/rHPy/eoxGQhtMrFZCCIGAJBBBWQgBEbNGJCAawoQN6ESENHGZMjmQgNFcjG5kIKh//Z"
+            alt="Sad Mark Zuckerberg"
+          />
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Sign up</li>
+            <li>Log In</li>
+          </ul>
+        </nav>
+      </header>
 
-    <div id="wrappeer" class="">
-        <!-- Page Header -->
-        <header>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Sign Up</li>
-                    <li>Log In</li>
-                </ul>
-            </nav>
-        </header>
+      <!-- Body of the page -->
+      <main>
+        <!-- section 1 -->
+        <section>
+          <h2>What makes Mark Zuckerberg sad?</h2>
+          <p>
+            Sticking with Facebook, Mark Zuckerberg sat down with Joe Rogan, the
+            only podcast that your ex-boyfriend with the abs listens to, for a
+            three-hour interview. It’s easy to be dismissive of Rogan, and
+            easier still to be concerned about his tendency to promote
+            interviewees who flirt with rightwing radicalisation, but his
+            interview technique is genuinely impressive. Rogan’s persona is that
+            of a total naïf, ready to believe absolutely anything he is told in
+            an excited, collegiate manner. He’s terrible at holding people to
+            account in the conventional sense, but good at forcing people to
+            unpick the implications of their positions, and at revealing mere
+            waffle for what it is. Sign up to TechScape
+          </p>
+        </section>
+
+        <!-- section 2 -->
+        <section>
+          <h2>Why did Meta layoff so many software engineers?</h2>
+          <p>
+            Shares of Meta were up about 7.7% Wednesday morning. The layoffs
+            come amid a tough time for Facebook parent company Meta, which
+            provided lukewarm guidance in late October for its upcoming
+            fourth-quarter earnings that spooked investors and caused its shares
+            to sink nearly 20%. Investors have been concerned about Meta’s
+            rising costs and expenses, which jumped 19% year over year in the
+            third quarter to $22.1 billion. The company’s overall sales declined
+            4% to $27.71 billion in the quarter while its operating income
+            dropped 46% from the previous year to $5.66 billion. “I want to take
+            accountability for these decisions and for how we got here. I know
+            this is tough for everyone, and I’m especially sorry to those
+            impacted.” Zuckerberg said. He said Meta is making reductions in
+            every organization but that recruiting will be disproportionately
+            affected since the company plans to hire fewer people in 2023. The
+            company extended its hiring freeze through the first quarter with a
+            few exceptions, Zuckerberg said. People using their mobile phones
+            outside the offices of Meta, the parent company of Facebook and
+            Instagram, in King's Cross, London.
+          </p>
+        </section>
 
 
-        <!-- Body of the page -->
-        <main>
-            <section>
-                <h2>What makes Mark Zuckerberg Sad</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. sOmnis, dolore, asperiores quaerat ratione delectus debitis nemo veniam corporis natus dolorum praesentium sunt odio. Iure nobis labore deserunt in enim necessitatibus?</p>
-            </section>
-            <!-- Section 2 -->
-            <section>
-                <h2>Why did META layoff many Software Engineers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sunt ut veniam non perspiciatis aspernatur nulla dolores. Omnis optio ut cum sequi voluptas iusto ad veniam facere minus perferendis.</p>
-            </section>
+        <aside>
+            <img src="https://i.insider.com/618a398c326b260018355d86?width=1136&format=jpeg" alt="pained guy vandalizing meta billboard">
+        </aside>
+      </main>
 
-            <aside>
-                <img 
-                style="width: 600px;
-                height: 400px;"
-                src="" alt="">
-            </aside>
-
-        </main>
-
-        <footer>
-            <nav>
-                <ul>
-                    <li>Menu</li>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Sign Up</li>
-                    <li>Contact</li>
-                </ul>
-                <small>&copy; ALIPHHATIC</small>
-            </nav>
-        </footer>
-
+      <footer>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Sign up</li>
+            <li>Log In</li>
+          </ul>
+        </nav>
+        <small>&copy; Hatchdev Scholars 2022</small>
+      </footer>
     </div>
-    
-    
-</body>
+  </body>
 </html>
