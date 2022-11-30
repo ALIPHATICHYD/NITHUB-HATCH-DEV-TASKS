@@ -1,4 +1,4 @@
-Implement a sign-up form in HTML ith the following six input fields, each with an appropriate label;
+Implementing a sign-up form in HTML ith the following six input fields, each with an appropriate label;
 
 1. Username, a required text input field.
 
