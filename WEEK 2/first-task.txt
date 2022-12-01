@@ -5,6 +5,7 @@
     "Jurassic Park" is the next most important heading.
     "About" is the third most important heading.
     "Welcome to HatchDev" with the least important heading.
+    
 
 Start with the most important heading (the largest) and end with the least important heading (the smallest).
 4) Set an image and reduce the width and height to 250px and height of 400px
