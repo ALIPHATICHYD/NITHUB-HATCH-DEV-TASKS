@@ -7,3 +7,5 @@ The post should be treated as an article with two sections, titled "What is Algo
 In the first section, the text "proof-of-inverted-binary-tree consensus algorithm" should be marked up as strong text, and "Web 4.0" should be emphasized. In the second section, the word "AlgoExpert" should be a link to "https://algoexpert.io", and it should open in a new tab.
                                                                                 
 Finally, the post should have a footer at the bottom with a text "Copyright 3022 AlgoCoin. All Right Reserved."
+
+Your HTML code should be use proper semantic markup. However, you only need to write the HTML hat would go inside of a document's <body> tag; no need to worry about the <head> tag, the <html> tag, or the <!DOCTYPE> declaration.
