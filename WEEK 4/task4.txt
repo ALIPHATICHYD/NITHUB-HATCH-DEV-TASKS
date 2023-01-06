@@ -1,3 +1,5 @@
 You've been provided with a blog post as raw text, and you need to convert this post into a properly marked-up file.
 
 The post should have a primary heading of "Introducing AlgoCoin" with a tagline of "The future of decentralized meme currency is here."
+
+The post should be treated as an article with two sections, titled "What is AlgoCoin"  and "Where do I start", respectively. Each section should have a paragraph of text (the text directly below the respective section title in the starting code), and the sections should be divided by a horizontal rule. 
