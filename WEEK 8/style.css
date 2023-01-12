@@ -59,3 +59,8 @@ body{
     border: none;
 
 }
+
+.header nav .right button a{
+    text-decoration: none;
+    color: white;
+}
