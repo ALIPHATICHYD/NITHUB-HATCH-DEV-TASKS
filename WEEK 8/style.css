@@ -53,5 +53,9 @@ body{
     font-weight: 400;
     padding: 7px 17px;
     background: #e50914;
-    
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+
 }
