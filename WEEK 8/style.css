@@ -69,3 +69,10 @@ body{
     padding: 70px 45px;
 
 }
+
+.section .content{
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
