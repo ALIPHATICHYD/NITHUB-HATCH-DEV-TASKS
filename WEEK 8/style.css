@@ -45,3 +45,13 @@ body{
     right: 50px;
 }
 
+.header nav .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px; 
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    
+}
