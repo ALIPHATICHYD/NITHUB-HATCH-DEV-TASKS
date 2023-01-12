@@ -64,3 +64,8 @@ body{
     text-decoration: none;
     color: white;
 }
+
+.section .content{
+    padding: 70px 45px;
+
+}
