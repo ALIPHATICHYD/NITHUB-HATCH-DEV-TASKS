@@ -105,3 +105,28 @@ body{
     font-size: 1.6 rem;
     text-align: center;
 }
+
+.first .section .content form h3{
+    font-size: 1rem;
+    margin: 18px, 0;
+    text-align: center;
+    color: white;
+
+}
+
+.first .section .content form .mail{
+    width: 100px;
+    margin: auto;
+}
+
+.first .section .content form .mail input{
+    width: 450px;
+    height: 60px;
+    margin: auto ;
+    padding: 20px;
+    border: 1px solid #333  ;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+
+}
