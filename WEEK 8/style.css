@@ -146,3 +146,89 @@ hr{
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.nigeria-unity .nigeria-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #303030;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.nigeria-unity .nigeria-heading h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.nigeria-unity .nigeria.nigeria-content{
+    display: block;
+    text-align: start;
+}
+
+.nigeria-unity .nigeria-heading i{
+    font-size: 25px;
+}
+
+
+.nigeria-unity .nigeria .nigeria-content{
+    background: #303030;
+    color: white;
+    border: 2px solid black;
+    border-top: none;
+    padding: 20px;
+    font-size: 18px;
+    display: none;
+    transform-origin: top;
+}
+
+.nigeria-unity form{
+    padding-bottom: 100px;
+}
+
+.nigeria-unity form h3{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    margin: 50px 0 20px 0;
+}
+
+
+/* Footer Properties */
+.footer {
+	max-width: 45%;
+	margin: 1rem auto;
+    padding: 40px 0 0 0;
+}
+
+.footer,
+.footer a {
+    font-size: 13px;
+    color: #999;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer li{
+    list-style: none;
+    margin: 12px 0;
+}
+
+.footer p {
+	margin-bottom: 1.5rem;
+    margin-top: 35px;
+}
+
+.footer .footer-cols {
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
