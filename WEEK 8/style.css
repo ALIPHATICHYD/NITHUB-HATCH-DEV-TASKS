@@ -85,3 +85,28 @@ height: 60px;
 padding: 0 25px;
 font-size: 20px;
 }
+
+send:hover{
+    opacity: 0.5;
+}
+
+.states{
+    background-color: black;
+    color: white;
+}
+
+.states .lagos-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.states .lagos-box .shomolu h3{
+    font-size: 40px;
+}
+
+.states .lagos-box .shomolu p{
+    font-size: 20px;
+}
