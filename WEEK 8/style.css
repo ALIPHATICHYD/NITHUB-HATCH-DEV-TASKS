@@ -110,3 +110,39 @@ send:hover{
 .states .lagos-box .shomolu p{
     font-size: 20px;
 }
+
+.states .lagos-box .image{
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+.states .lagos-box .image img{
+    padding-right: 10px;
+    width: 100%;
+}
+
+
+hr{
+    background: #303030;
+    height: 8px;
+}
+
+.africa{
+    text-align: center;
+}
+
+.nigeria-unity{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nigeria-unity h1{
+    color: white;
+    padding: 3rem 0;
+}
+
+.nigeria-unity .nigeria{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
