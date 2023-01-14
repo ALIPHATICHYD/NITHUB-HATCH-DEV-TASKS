@@ -88,3 +88,20 @@ body{
     color: white;
     
 }
+
+
+.first .section .content h1{
+    width: 650px;
+    margin: auto;
+    font-size: 3.1rem;
+    text-align: center;
+    color: white;
+}
+
+.first .section .content h2{
+    width: 650px;
+    margin: auto;
+    color: white;
+    font-size: 1.6 rem;
+    text-align: center;
+}
