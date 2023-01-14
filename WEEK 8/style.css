@@ -156,3 +156,25 @@ body{
     text-decoration: none;
     color: white;
 }
+
+ form .mail{
+    display: flex;
+    margin: auto;
+    width: 650px;
+    height: 60px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+form .mail input{
+    width: 450px;
+    height: 60px;
+    margin: auto ;
+    padding: 20px;
+    border: 1px solid #333  ;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+
+}
