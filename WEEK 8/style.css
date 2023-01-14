@@ -147,3 +147,12 @@ body{
     margin-left: -5px;
       
 }
+
+.first .section .content form .mail button:hover{
+    background: #ff1e1e;
+}
+
+.first .section .content form .mail button a{
+    text-decoration: none;
+    color: white;
+}
