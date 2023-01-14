@@ -56,3 +56,29 @@ nav{
 .nav-content h2{
     font-size: 55px;
 }
+
+
+.nav-content h5{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 1rem 0;
+}
+
+.send{
+position: relative;
+left: -5px;
+width: 180px;
+height: 60px;
+background-color: red;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.email {
+background-color: white;
+width: 420px;
+height: 60px;
+padding: 0 25px;
+font-size: 20px;
+}
