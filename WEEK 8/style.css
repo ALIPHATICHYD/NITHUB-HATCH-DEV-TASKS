@@ -11,4 +11,26 @@ body{
     width: 100%;
 }
 
+/* The Header Properties */
+nav{
+    background-image: url("background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 100%;
+}
 
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+/* The Header */
+.nav-header img{
+    width: 150px;
+}
