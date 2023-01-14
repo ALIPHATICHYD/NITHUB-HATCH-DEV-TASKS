@@ -20,3 +20,29 @@ body{
     opacity: 0.3;
     z-index: -1;
 }
+
+
+.header nav{
+    height: 100px;
+    display: flex;
+}
+
+.header nav .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.header nav .left img{
+    height: 100px;
+    position: absolute;
+    left: 35px;
+}
+
+.header nav .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
