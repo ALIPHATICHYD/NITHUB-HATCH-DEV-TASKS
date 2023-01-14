@@ -34,3 +34,25 @@ nav{
 .nav-header img{
     width: 150px;
 }
+
+.nav-header button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+}
+
+.nav-content h2{
+    font-size: 55px;
+}
