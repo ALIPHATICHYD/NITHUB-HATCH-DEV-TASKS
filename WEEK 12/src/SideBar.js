@@ -6,9 +6,19 @@ const SideBar = () => {
             <i>C</i>
             <i>D</i>
             <i>E</i>
+
+            <SideBar/>
         </div>
     )
 
 };
+
+const SideBarIcon = ({ icon }) => (
+    <div className="sidebar-icon">
+        {icon}
+    </div>
+);
+
+
 
 export default SideBar;
