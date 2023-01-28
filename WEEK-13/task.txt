@@ -1,0 +1,9 @@
+ Intro to Javascript Task 
+
+ * Prompt the user to enter 2 numbers 
+ * then display 
+ * the sum 
+ * the difference 
+ * the product
+
+ * of the 2 numbers.
