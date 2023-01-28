@@ -1,9 +1,13 @@
- Intro to Javascript Task 
+* Prompt the user to enter 2 numbers and the operation they
+* want to perform on then display.
+* then display 
+* the sum 
+* the difference 
+* the product
+* the modulus
 
- * Prompt the user to enter 2 numbers 
- * then display 
- * the sum 
- * the difference 
- * the product
+* of the 2 numbers.
 
- * of the 2 numbers.
+* HINT:
+* Modulo 
+* If.. else 
