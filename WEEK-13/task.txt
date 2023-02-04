@@ -4,6 +4,7 @@
 * the sum 
 * the difference 
 * the product
+* the division
 * the modulus
 
 * of the 2 numbers.
