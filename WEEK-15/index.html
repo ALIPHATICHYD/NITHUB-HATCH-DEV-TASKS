@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+
+  <script>
+    // conditional: ==, ===, <, >, <=,>=, !
+    // assignment: =
+    // increment: value++, ++value
+    // decrement: value--, --value
+
+
+    /**
+     * The user should be able to enter two numbers and
+     * the operation they want to perform
+     * Then we will display the answer, 
+     * then we will ask them if they want to continue
+     * or stop
+     * 
+     * a. if they enter q, that means end the program
+     * b. if they enter y, ask them the question
+     * 
+     * */
+
+    let firstNum = parseInt(prompt("First number"));
+    let secondNum = parseInt(prompt("second number"));
+    let usersChoice = prompt("Enter one of these (div , mul, add,sub, mod)");
+
+    let addition = "add";
+    let sub = "sub";
+    let multiplication = "mul";
+    let div = "div";
+    let remainder = "mod";
+
+     // 90
+    switch (usersChoice) {
+      case addition:
+        alert(firstNum + secondNum);
+        break;
+      case sub:
+        alert(firstNum - secondNum);
+        break;
+      case multiplication:
+        alert(firstNum * secondNum);
+        break;
+      case div:
+        alert(firstNum / secondNum);
+        break;
+      case remainder:
+         alert(firstNum % secondNum);
+        break;
+      default:
+        alert("This is not a valid operation");
+    }
+  </script>
+</html>
