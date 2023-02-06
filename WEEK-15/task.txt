@@ -1,0 +1,3 @@
+ *The user should be able to enter two numbers and the operation they want to perform.
+ * Then we will display the answer, then we will ask them if they want to continue or stop.
+ * if they enter q, that means end the program and if they enter y, ask them the question
