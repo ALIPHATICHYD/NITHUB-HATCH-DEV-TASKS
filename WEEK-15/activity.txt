@@ -1,1 +1,5 @@
+Class Activity 
 
+Co-write a for loop that prints numbers from 1 to 200 (exclusive);
+
+Hint: You should not print 200. Use any kind of loop you want. Do not use any built-in functions 
