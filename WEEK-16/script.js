@@ -56,3 +56,7 @@ for (let i = 0; i < numbers.length; i++) {
         odd.push(numbers[i]);
     }
 }
+
+
+console.log("even Numbers", evenNumbers);
+console.log("odd Numbers", oddNumbers);
