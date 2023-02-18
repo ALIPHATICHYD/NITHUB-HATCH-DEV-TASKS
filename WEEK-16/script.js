@@ -11,12 +11,13 @@
         // console.log(c);
 
 
+
 for (let i = 0; i < 12; i++) {
     let isDivisible = i % 2 === 0;
 
     if (isDivisible) {
-        alert(`$ isDivisible by 2`)
+        alert(`${i} isDivisible by 2`)
     } else {   
-        alert(`$ is not divisible by 2`)
+        alert(`${i} is an odd number`)
     }
 } 
