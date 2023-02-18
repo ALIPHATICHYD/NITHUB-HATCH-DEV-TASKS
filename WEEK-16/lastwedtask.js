@@ -22,3 +22,15 @@ Bracket notation, on the other hand, uses square brackets [] to access an object
 It allows you to use a variable or a string as the property name.
 For example:
 **/
+
+const myObject = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const propertyName = "name";
+console.log(myObject[propertyName]); // Output: "John"
+
+const city = "city";
+console.log(myObject[city]); // Output: "New York"
