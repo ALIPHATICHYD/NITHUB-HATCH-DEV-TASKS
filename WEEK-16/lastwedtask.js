@@ -15,3 +15,10 @@ const myObject = {
 console.log(myObject.name); // Output: "John"
 console.log(myObject.age); // Output: 30
 console.log(myObject.city); // Output: "New York"
+
+/**
+As you can see, dot notation allows you to access an object's properties by simply appending the property name to the object name using a dot (.) operator.
+Bracket notation, on the other hand, uses square brackets [] to access an object's properties.
+It allows you to use a variable or a string as the property name.
+For example:
+**/
