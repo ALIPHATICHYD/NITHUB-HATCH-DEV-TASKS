@@ -42,3 +42,8 @@ for(let i = 0; i < 10; i++) {
  * 1. If the element is even (push it to another array);
  * 2. If the element us odd (push it to another array);
  */
+
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const evenNumbers = [];
+const oddNumbers = [];
