@@ -34,3 +34,13 @@ console.log(myObject[propertyName]); // Output: "John"
 
 const city = "city";
 console.log(myObject[city]); // Output: "New York"
+
+/**
+In this example, bracket notation is used to access an object's property using a variable.
+The variable propertyName is assigned the value "name", and the object's name property is accessed using myObject[propertyName].
+Similarly, the city property is accessed using a variable city.
+In summary, dot notation is preferred when the property name is known ahead of time, while bracket notation is used when the property name is dynamic and determined at runtime.
+**/
+
+
+
