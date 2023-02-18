@@ -34,3 +34,11 @@ let array = [1, 2, 3, 4, 7, 8, 10];
 for(let i = 0; i < 10; i++) {
     console.log(array[i]);
 }
+
+// CLASS TASK
+/**
+ * Initialize an array with elements 1 - 10
+ * loop over the elements and check for these conditions.
+ * 1. If the element is even (push it to another array);
+ * 2. If the element us odd (push it to another array);
+ */
