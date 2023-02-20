@@ -1,7 +1,4 @@
-
-
-    <script>
-                // Mini-JavaScript Course
+               // Mini-JavaScript Course
         
         
   // Operators in JavaScript
