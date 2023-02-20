@@ -387,6 +387,4 @@ Code Output
 
     convertToInteger("56");     
     </script>
-    
-</body>
-</html>
+
