@@ -386,5 +386,5 @@ Code Output
     }
 
     convertToInteger("56");     
-    </script>
+
 
