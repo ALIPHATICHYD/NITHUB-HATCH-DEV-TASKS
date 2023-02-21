@@ -1,6 +1,5 @@
                // Mini-JavaScript Course
         
- 
 
   // Operators in JavaScript
   // Assignment Operators : '=';
