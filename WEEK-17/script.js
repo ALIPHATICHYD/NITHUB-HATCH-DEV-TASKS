@@ -16,3 +16,8 @@ example.unshift(-1);
 console.log(example);
 example.unshift("Bala Blue");
 console.log(example);
+
+
+
+// splice
+// splice is used to remove or replace elements in an array
