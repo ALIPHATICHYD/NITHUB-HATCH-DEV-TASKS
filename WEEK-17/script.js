@@ -21,3 +21,12 @@ console.log(example);
 
 // splice
 // splice is used to remove or replace elements in an array
+
+
+/**
+ * Assignment 
+ * Read up on Functions 
+ * if you can read on Anonymous Functions
+ * Practice more Arrays.find(), Arrays.sort(),
+ *
+**/
