@@ -372,7 +372,28 @@ Code Output
     console.log(ourArray);
 
     
-       
+         // EXAMPLE 
+
+// Shopping List
+
+var myList = [["Cereal", 3], ["Milk", 2], ["Bananas", 3], ["Juice", 2]["Eggs", 12]];
+
+// Write Reusable Codes with Functions
+
+        /** FUNCTIONS
+         * Function allows us to create reusable codes in JavaScript
+         * We have the word function
+         * Then we have the function name
+         * Theres always parenthesis there, you can pass information into the parenthesis 
+         * Then theres the curly bracket, opening and closing 
+         * Everything inside the curly  brackets is run anytime the function is called or invoked 
+         * So anytime the function is called its says Shege, Banza!!! in the console 
+         */
+
+function ourReusableFunction() {
+    console.log("Shege, Banza!!!");
+}
+ourReusableFunction();  
         
         
         
