@@ -347,20 +347,22 @@ Code Output
     console.log(myData);
   
 // Manipulate Arrays With Push()
+// This adds an element to the end of an array
     var ourArray = ["Shege", "banza"];
-    ourArray.push(["happy", "joy"]);   //Our Array now equals ["shege", "banza", ["happy", "joy"]];     
-    console.log(ourArray);   
-        
-  // Manipulate Arrays With Pop()
-    var ourArray = [1, 2, 3];  
-    var removedFromOurArray = ourArray.pop(); // removedFromOurArray now equals 3, and ourArray now equals [1, 2]
-    console.log(ourArray);        
-        
-  // Manipulate Arrays With Shift()    
-    var ourArray = ["Stimpson", "J", "cat"];
-    var removedFromOurArray = ourArray.shift();  // removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", "cat"]
+    ourArray.push(["happy", "joy"]); //Our Array now equals ["shege", "banza", ["happy", "joy"]];
     console.log(ourArray);
-     
+
+// Manipulate Arrays With Pop()
+// This removes the last element of an array 
+    var ourArray = [1, 2, 3];
+    var removedFromOurArray = ourArray.pop(); // removedFromOurArray now equals 3, and ourArray now equals [1, 2]
+    console.log(ourArray);
+
+// Manipulate Arrays With Shift()
+// This removes the first element of an array unlike the pop that removes the last element 
+    var ourArray = ["Stimpson", "J", "cat"];
+    var removedFromOurArray = ourArray.shift(); // removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", "cat"]
+    console.log(ourArray);
 
         
         
