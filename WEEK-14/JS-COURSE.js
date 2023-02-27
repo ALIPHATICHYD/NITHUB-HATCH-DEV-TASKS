@@ -364,7 +364,15 @@ Code Output
     var removedFromOurArray = ourArray.shift(); // removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", "cat"]
     console.log(ourArray);
 
-        
+// Manipulate Arrays With Unshift()
+// This is similar to the push function, push add element to end of an array but Unshift adds an element to the beginning of an array
+    var ourArray = ["Stimpson", "J", "cat"];
+    ourArray.shift(); // ourArray now equals ["J", "cat"]
+    ourArray.unshift("Happy"); // ourArray now equals ["Happy", "J", "cat"]
+    console.log(ourArray);
+
+    
+       
         
         
         
