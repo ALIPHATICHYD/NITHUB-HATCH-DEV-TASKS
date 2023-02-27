@@ -23,3 +23,9 @@ ourReusableFunction();
  * when we called the function we pass the value 10 and 5 
  * so when the function runs it can use the information thats passed into the function 
 */ 
+
+
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+}
+ourFunctionWithArgs(10, 5); // Outputs 5
