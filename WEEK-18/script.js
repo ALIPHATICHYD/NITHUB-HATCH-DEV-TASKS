@@ -13,4 +13,13 @@ function ourReusableFunction() {
 }
 ourReusableFunction();
 
-// Passing Values to 
+
+/** Passing Values to Functions with Arguments 
+ * Parameters are variables that act as placeholders for the values that are to be input to a function when it is called 
+ * We have defined the function 
+ * inside the parenthesis we see the letters a and b, these can be anything 
+ * that means when the function is called we are going to pass data into the function or input data into the function 
+ * we can see that from the example 
+ * when we called the function we pass the value 10 and 5 
+ * so when the function runs it can use the information thats passed into the function 
+*/ 
