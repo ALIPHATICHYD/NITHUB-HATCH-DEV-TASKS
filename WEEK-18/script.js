@@ -29,3 +29,15 @@ function ourFunctionWithArgs(a, b) {
     console.log(a - b);
 }
 ourFunctionWithArgs(10, 5); // Outputs 5
+
+
+
+/**Global Scope and Functions
+ * Scope refers to the visibility of variables 
+ * Variables which are defined out of a function block have a global scope
+ * Global scope means that they can be seen everywhere in your JavaScript code 
+ * in the if statement we are checking if the type of my Global does not equal undefined 
+ * it will not equal undefined if the program knows about the variable 
+ * since this is global scope  it does not equal undefined, it equals 10, the programs knows about the variable because this is a global scope 
+ * since the function can access my global variable will run within this if statement where wwe will just add 
+ */
