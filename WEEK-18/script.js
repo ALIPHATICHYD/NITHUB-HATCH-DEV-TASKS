@@ -116,3 +116,16 @@ console.log(myOutfit());
  * So here we will log the function 
  * It returns the result of minus 7 which is 10 and the result is 3 
  **/
+
+function minusSeven(num) {
+    return num - 7;
+
+}
+console.log(minusSeven(10));
+
+function timesFive(num) {
+    return num * 5;
+
+}
+console.log(timesFive(5));
+
