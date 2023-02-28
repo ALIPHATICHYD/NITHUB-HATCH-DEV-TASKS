@@ -95,3 +95,19 @@ localScope();
  * If you log out the outerWear outside the function it will give TShirt as output 
  * This is because we console the function first which is sweater, then the global variable which is TShirt
  **/
+
+var outerWear = "TShirt";
+function myOutfit() {
+    // var outerWear = "Sweater";  
+    
+    return outerWear;
+}
+
+console.log(myOutfit());
+// console.log(outerWear);
+
+
+
+/** Return a Value from a Function with Return
+ * 
+ **/
