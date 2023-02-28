@@ -109,5 +109,10 @@ console.log(myOutfit());
 
 
 /** Return a Value from a Function with Return
- * 
+ * You can return a value from a function with the return statement 
+ * So we have this function here and we are passing a number into it (the num) 
+ * Its going to return whatever is after the return keyword
+ * In this case num minus 7 
+ * So here we will log the function 
+ * It returns the result of minus 7 which is 10 and the result is 3 
  **/
