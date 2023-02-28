@@ -41,3 +41,12 @@ ourFunctionWithArgs(10, 5); // Outputs 5
  * since this is global scope  it does not equal undefined, it equals 10, the programs knows about the variable because this is a global scope 
  * since the function can access my global variable will run within this if statement where wwe will just add 
  */
+
+
+// Declare the variable here 
+var myGlobal = 10;
+
+function fun1() {
+// Assign 5 oopsGlobal here 
+    oopsGlobal = 5;
+}
