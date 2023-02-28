@@ -177,3 +177,31 @@ function processArg(num) {
 }
 
 processed = processArg(7);
+
+
+
+/** Stand in Line
+ * In computer science a queue is an abstract data structure where items are kept in order
+ * New items can be added to the back of  queue and old items are taken off from the front of thr queue 
+ * We are going to simulate that as some of the functionality of the queue using the next in line function 
+ * The purpose of this is to show that with the next in line function you can add an item to the array thats passed in 
+ * And then its going to return the first item of the list 
+ * For instance, this array right here 
+ * If we add an item to this array it should come after at the end, it should come after 5
+ * And then it should return the first item on the list 
+ * I this case its 1 
+ * We have some console set up, it should show what the array looks like before and afterwards 
+ * The JSON.Stringify  is just a way to change an array into a string that can easily be printed out into a string 
+ * 
+ */
+
+function nextInLine(arr, item) {
+    arr.push(item);
+    return item;
+}
+
+var testArr = [1, 2, 3, 4, 5];
+
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
