@@ -138,3 +138,15 @@ console.log(timesFive(5));
  * It does not return anything, if you don't specify a return value the return vale is undefined 
  * 
  */
+
+
+var sum = 0;
+function addThree() {
+    sum = sum + 3;
+
+}
+
+function addFive() {
+    sum += 5;
+}
+
