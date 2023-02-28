@@ -150,3 +150,30 @@ function addFive() {
     sum += 5;
 }
 
+
+
+/** Assignment with a returned Value 
+ * Its simple to assign a returned value to a variable 
+ * Right here we have a function change 
+ * And we pass the number and its going to return the result of this mathematical expression 
+ * So when we call the function change and pass in the 10 
+ * The value that is returned from the function is gonna be stored in this variable here 
+ */
+
+var changed = 0;
+
+function change(num) {
+    return (num + 5) / 3;
+
+}
+
+changed = change(10);
+
+var processed = 0;
+
+function processArg(num) {
+    return (num + 3) / 5;
+
+}
+
+processed = processArg(7);
