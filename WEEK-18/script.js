@@ -129,3 +129,12 @@ function timesFive(num) {
 }
 console.log(timesFive(5));
 
+
+
+
+/** Understanding Undefined value Returned From a Function 
+ * Functions can have return statements but they don't have to 
+ * In this case this function adds 3 to the sum variable which is a global variable because its defined before the function 
+ * It does not return anything, if you don't specify a return value the return vale is undefined 
+ * 
+ */
