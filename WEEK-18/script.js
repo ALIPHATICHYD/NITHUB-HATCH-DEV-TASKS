@@ -67,6 +67,15 @@ function fun2() {
 fun1();
 fun2();
 
+
+
 /** Local Scope and Functions
- * 
+ * Variables which are declared within a function as well as the function parameters have a local scope
+ * That means they are only visible from within the function
  **/
+
+function localScope() {
+    var myVar = 5;
+    console.log(myVar);
+}
+localScope();
