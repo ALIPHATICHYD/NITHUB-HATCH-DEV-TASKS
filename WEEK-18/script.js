@@ -79,3 +79,19 @@ function localScope() {
     console.log(myVar);
 }
 localScope();
+
+
+
+/** Global vs. Local Scope in Functions
+ * It is possible to have both global and local variables with the same name 
+ * When you do this the local variable takes president over the global variable 
+ * 
+ * Here we have a function called myOutfit thats going to  return outerWear, the variable up here
+ * This is a global variable because it is declared outside the function 
+ * When we console the output of the myOutfit function 
+ * the myOutfit function is going to return outerwear which is TShirt
+ * If you run the outerWear = sweater, it going to log out sweater in the console
+ * This is because the local variable inside the function took president over the global function outside the function
+ * If you log out the outerWear outside the function it will give TShirt as output 
+ * This is because we console the function first which is sweater, then the global variable which is TShirt
+ **/
