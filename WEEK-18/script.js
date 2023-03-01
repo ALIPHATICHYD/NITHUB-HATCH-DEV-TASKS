@@ -317,3 +317,11 @@ function compareEquality(a, b) {
     }
     return "Not Equal";
 }
+// You can Change this value to test
+console.log(compareEquality(10, "10"));
+
+
+/** Comparison With The Inequality Operator 
+ * Now to show the Inequality Operator (!=)
+ * Just like the Equality operator this does type conversion
+ */
