@@ -351,3 +351,8 @@ function testStrictNotEqual(val) {
 
 // You can change this value to test
 console.log(testStrictNotEqual(10));
+
+
+/** Comparisons With The Logical and Operator
+ * 
+ **/
