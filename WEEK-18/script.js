@@ -430,3 +430,8 @@ function testLesserThanOrEqual(val) {
 
 // Change the value to test
 console.log(testLesserThanOrEqual(10));
+
+
+/** Comparison With The Logical And Operator
+ * 
+ */
