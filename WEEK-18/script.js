@@ -411,3 +411,22 @@ function testLesserThan(val) {
 
 // Change this value to test
 console.log(testLesserThan(10));
+
+
+
+/** Comparison With The Lesser-than or Equal-to Operator
+ * We can also use the Lesser-than or Equal-to (<=)
+ */
+
+function testLesserThanOrEqual(val) {
+    if (val <= 25) {
+        return "Smaller than or equal to 25";
+    }
+    if (val <= 55) {
+        return "Smaller than or equal to 55";
+    }
+    return "More than 25";
+}
+
+// Change the value to test
+console.log(testLesserThanOrEqual(10));
