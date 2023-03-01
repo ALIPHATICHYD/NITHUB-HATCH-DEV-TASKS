@@ -368,3 +368,46 @@ function testGreaterThan(val) {
     }
     return "10 or Under ";
 }
+
+
+
+// Change this value to test 
+console.log(testGreaterThan(10));
+
+
+/**  Comparison With The Greater-than Or Equal-to Operator
+ * We can also use the Greater-than or Equal-to Operator (>=)
+ */
+
+function testGreaterThanOrEqual(val) {
+    if (val >= 20) { // You can change this value
+        return "20 0r Over";
+    }
+
+    if (val >= 10) {
+        return "10 or Over";
+    }
+    return "Lesser than 10";
+}
+
+// Change the value to test
+console.log(testGreaterThanOrEqual(10));
+
+
+
+/** Comparison With The Lesser-than Operator 
+ * We can also use the Lesser-than (<)
+ */
+
+function testLesserThan(val) {
+    if (val < 25) { // You can change this value 
+        return "Under 25";
+    }
+    if (val < 55) { // You can change the value
+        return "Under 55"
+    }
+    return "55 or Over";
+}
+
+// Change this value to test
+console.log(testLesserThan(10));
