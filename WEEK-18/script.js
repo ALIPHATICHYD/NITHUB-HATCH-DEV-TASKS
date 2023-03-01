@@ -254,3 +254,18 @@ function trueOrFalse(wasThatTrue) {
 }
 
 console.log(trueOrFalse(true));
+
+
+
+/** Comparison With the Equality Operator 
+ * There are many comparison operators in JavaScript
+ */
+
+function testEqual(val) {
+    if (val) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+textEqual(10);
