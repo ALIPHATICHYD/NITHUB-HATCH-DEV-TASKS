@@ -275,3 +275,22 @@ function testEqual(val) {
 console.log(textEqual(10));
 
 
+
+
+/** Comparison with the Strict Equality Operator 
+ * We learnt about the equality operator  i.e the (==) sign 
+ * Theres also the Strict Equality Operator which is the (===) sign
+ * 
+ * Here 👇🏽 we are checking if the 3 equals 3 with the strict equality operator (===)
+ * The difference is that the Equality operator (==) attempts to converts both values being compared to a common type
+ * But the Strict Equality Operator (===) does not do the type conversion
+ * 
+ * Struct Equality Operator (===) Example
+ * 3 === 3;  So this will evaluate to true 
+ * 3 === '3'; But this will evaluate to false because of the string wont be converted to a number 
+ * 
+ * Equality Operator (==) Example
+ * 3 == 3;  So this will evaluate to true 
+ * 3 == '3'; This also will evaluate to true because the string will be converted to a number 
+ * 
+ */
