@@ -305,6 +305,15 @@ function testStrict(val) {
 console.log(testStrict(10));
 
 
+
 /** Practice Comparing Different Values
+ * Here we will do one more review with the Equality Operator (==) and the Strict Equality Operator (===)
  * 
  */
+
+function compareEquality(a, b) {
+    if (a == b) { // You can change this value 
+        return "Equal";
+    }
+    return "Not Equal";
+}
