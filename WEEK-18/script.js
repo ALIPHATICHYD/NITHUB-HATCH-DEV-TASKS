@@ -258,14 +258,20 @@ console.log(trueOrFalse(true));
 
 
 /** Comparison With the Equality Operator 
- * There are many comparison operators in JavaScript
+ * There are many comparison operators in JavaScript that will return a boolean of true or false 
+ * The most common is the Equality operator and its often used in an if statement 
+ * In this if (val) statement we are gonna see if it equals 12
+ * To check if it equals 12 we will ue the (==) sign i.e the Equal operator 
+ * We cant use the (=) sign because this is used to assign values 
  */
 
 function testEqual(val) {
-    if (val) {
+    if (val == 12) {
         return "Equal";
     }
     return "Not Equal";
 }
 
-textEqual(10);
+console.log(textEqual(10));
+
+
