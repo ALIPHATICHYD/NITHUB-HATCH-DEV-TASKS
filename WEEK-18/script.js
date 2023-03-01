@@ -335,3 +335,19 @@ function testNotEqual(val) {
 }
 // You can change this value to test
 console.log(testNotEqual(10));
+
+
+
+/** Comparison With The Strict Inequality Operator
+ * This is basically the opposite of the Strict Operator 
+ */
+
+function testStrictNotEqual(val) {
+    if (val !== 171) { // This means its going to check if its not true but its not going to convert types  
+        return "Not Equal";
+    }
+    return "Equal";
+}
+
+// You can change this value to test
+console.log(testStrictNotEqual(10));
