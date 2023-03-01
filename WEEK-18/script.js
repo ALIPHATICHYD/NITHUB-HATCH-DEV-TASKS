@@ -354,5 +354,17 @@ console.log(testStrictNotEqual(10));
 
 
 /** Comparisons With The Logical and Operator
+ * We can also use the Greater-than Operator (>)
  * 
  **/
+
+function testGreaterThan(val) {
+    if (val > 100) { // You can change this line
+        return "Over 100";
+    }
+
+    if (val > 10) {
+        return "Over 10";
+    }
+    return "10 or Under ";
+}
