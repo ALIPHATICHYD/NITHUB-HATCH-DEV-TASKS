@@ -321,7 +321,17 @@ function compareEquality(a, b) {
 console.log(compareEquality(10, "10"));
 
 
+
 /** Comparison With The Inequality Operator 
  * Now to show the Inequality Operator (!=)
  * Just like the Equality operator this does type conversion
  */
+
+function testNotEqual(val) {
+    if (val != 99 ) {  // You can change this line
+        return "Equal";
+    }
+    return "Not Equal";
+}
+// You can change this value to test
+console.log(testNotEqual(10));
