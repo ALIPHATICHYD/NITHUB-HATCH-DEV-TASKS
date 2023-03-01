@@ -294,3 +294,17 @@ console.log(textEqual(10));
  * 3 == '3'; This also will evaluate to true because the string will be converted to a number 
  * 
  */
+
+function testStrict(val) {
+    if (val === 7) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+console.log(testStrict(10));
+
+
+/** Practice Comparing Different Values
+ * 
+ */
