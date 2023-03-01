@@ -205,3 +205,20 @@ var testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+
+
+
+/** Boolean Values 
+ * Booleans are  another datatype in javascript
+ * They are only two values TRUE and FALSE
+ * The basic little on/off switch is where 'true is on' and 'false is off'
+ * They don't use quotation marks around the boolean  
+ * So this says return false
+ * This is just a function that returns false when the function welcomeToBoolean is being called
+
+ */
+
+function welcomeToBoolean() {
+    return false; // or return true;
+}
