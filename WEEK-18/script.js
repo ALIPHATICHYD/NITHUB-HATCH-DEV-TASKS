@@ -222,3 +222,35 @@ console.log("After: " + JSON.stringify(testArr));
 function welcomeToBoolean() {
     return false; // or return true;
 }
+
+
+/** Using Conditional Logic with If Statements 
+ * An if statements are used to make decisions in codes 
+ * The keyword "if" tells Javascript to execute the code in curly braces {} under certain conditions defined in the parenthesis 
+ * so here is a full if statement right here 
+ * And theres always a parenthesis after the keyword "if"
+ * So heres the condition;
+ * If the stuff inside the parenthesis evaluates to true then the code within the curly braces will be evaluated or run 
+ * So in this case its a variable
+ * If the (isItTrue) variable is true it will return "Yes, it is true." 
+ * Now if its not true then we will get to the second return statement "No, it is false."
+ * So this whole function here takes any variable and check if its true or not 
+ */
+
+function ourTrueOrFalse(isItTrue) {
+    if (isItTrue) {         // Beginning of the if statement 
+        return "Yes, it is true.";
+    }                       // End of the full if statement 
+    return "No, it is false";
+}
+
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+        return "Yes, that was true";
+    }
+    return "No, that was false";
+
+
+}
+
+console.log(trueOrFalse(true));
