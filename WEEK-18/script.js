@@ -452,3 +452,21 @@ function testLogicalAnd(val) {
 
 // Change the value to test
 console.log(testLogicalAnd(10));
+
+
+/** Comparison With the Logical Or Operator
+ * In this code here👇🏽 we are checking if the value is not between 10 and 20   
+ * This is where the Or Operator (||) comes in 
+ */
+
+function testLogicalOr(val) {
+    // Only change code below this line
+
+    if (val < 10 || val > 20) {
+        return "Outside";
+    }
+    return "Inside";
+}
+
+// Change the value to test
+console.log(testLogicalOr(15));
