@@ -470,3 +470,9 @@ function testLogicalOr(val) {
 
 // Change the value to test
 console.log(testLogicalOr(15));
+
+
+/** Else Statements 
+ * 
+ * 
+ */
