@@ -441,3 +441,14 @@ console.log(testLesserThanOrEqual(10));
  * Thats where the And Operator (&&) comes in
  */
 
+function testLogicalAnd(val) {
+    // Only change the code below this line
+
+    if (val <= 50 && val >= 25) {
+        return "Yes";
+    }
+    return "No";
+}
+
+// Change the value to test
+console.log(testLogicalAnd(10));
