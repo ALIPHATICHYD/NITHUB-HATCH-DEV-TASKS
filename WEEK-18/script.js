@@ -432,6 +432,12 @@ function testLesserThanOrEqual(val) {
 console.log(testLesserThanOrEqual(10));
 
 
+
+
 /** Comparison With The Logical And Operator
- * 
+ * Sometimes you wanna check if two things are true at the same time 
+ * For instance you may check if this value is less than or equal to 50 
+ * And you may check if the value is more than or equal to 25 
+ * Thats where the And Operator (&&) comes in
  */
+
