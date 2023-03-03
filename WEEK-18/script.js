@@ -473,6 +473,18 @@ console.log(testLogicalOr(15));
 
 
 /** Else Statements 
- * 
- * 
+ * When an if statement is true, normally the block of code right after the if statement  will be evaluated
  */
+
+function testElse(Val) {
+    var result = "";
+
+    if (val > 5) {
+        result = "Bigger than 5"
+    } else {
+         result = "5 or Smaller";
+    }
+
+    return result;
+}
+
