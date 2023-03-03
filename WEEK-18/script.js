@@ -503,3 +503,11 @@ function testElseIf(val) {
         return "Smaller than 5";
     }
 }
+
+// Change the value to test
+console.log(testElseIf(7));
+
+
+/** Logical Order In If Else Statements
+ * 
+ */
