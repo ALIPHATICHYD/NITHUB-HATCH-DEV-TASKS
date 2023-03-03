@@ -488,3 +488,18 @@ function testElse(Val) {
     return result;
 }
 
+
+console.log(testElse())
+
+/** Else if Statements 
+ * If you have multiple conditions that needs to be addressed you can use Else if statements 
+ */
+
+function testElseIf(val) {
+    if (val > 10) {
+        return "Greater than 10";
+    }
+    else if (val < 5) {
+        return "Smaller than 5";
+    }
+}
