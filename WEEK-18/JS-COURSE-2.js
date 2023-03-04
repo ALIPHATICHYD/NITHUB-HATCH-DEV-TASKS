@@ -368,9 +368,6 @@ function testGreaterThan(val) {
     }
     return "10 or Under ";
 }
-
-
-
 // Change this value to test 
 console.log(testGreaterThan(10));
 
@@ -389,7 +386,6 @@ function testGreaterThanOrEqual(val) {
     }
     return "Lesser than 10";
 }
-
 // Change the value to test
 console.log(testGreaterThanOrEqual(10));
 
@@ -408,7 +404,6 @@ function testLesserThan(val) {
     }
     return "55 or Over";
 }
-
 // Change this value to test
 console.log(testLesserThan(10));
 
@@ -427,7 +422,6 @@ function testLesserThanOrEqual(val) {
     }
     return "More than 25";
 }
-
 // Change the value to test
 console.log(testLesserThanOrEqual(10));
 
@@ -449,7 +443,6 @@ function testLogicalAnd(val) {
     }
     return "No";
 }
-
 // Change the value to test
 console.log(testLogicalAnd(10));
 
@@ -467,7 +460,6 @@ function testLogicalOr(val) {
     }
     return "Inside";
 }
-
 // Change the value to test
 console.log(testLogicalOr(15));
 
@@ -487,8 +479,6 @@ function testElse(Val) {
 
     return result;
 }
-
-
 console.log(testElse())
 
 /** Else if Statements 
@@ -503,25 +493,8 @@ function testElseIf(val) {
         return "Smaller than 5";
     }
 }
-
 // Change the value to test
 console.log(testElseIf(7));
 
 
-/** Logical Order In If Else Statements
- * When you are using Else if statements Order is very important 
- * Lets look at this example here ;
- */
-
-function orderMyLogic(val){
-    if (val < 5){
-        return "Less than 5";
-    } else if (val < 10) {
-        return "Less than 10";
-    } else {
-        return "Greater than or equal to 5";
-    }
-}
-
-// Change the value to test
-console.log(orderMyLogic(7));
+//CONTINUE FROM JS-COURSE-3
