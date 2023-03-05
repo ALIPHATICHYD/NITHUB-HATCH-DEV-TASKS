@@ -15,3 +15,8 @@ function orderMyLogic(val){
 
 // Change the value to test
 console.log(orderMyLogic(7));
+
+
+/** Chaining If Else Statements
+ * 
+ */
