@@ -229,4 +229,35 @@ console.log(shuffledArray);
  * This will output an array with the same elements as myArray, but in a random order. 
  * The shuffleArray() function can be used to shuffle any array, including arrays of objects.
  * Note that both of the above methods modify the original array, so if you want to keep the original array intact, you should create a copy of it before shuffling.
+ * 
+ *       How to create a copy of an array before reshuffling it 
+ * In JavaScript, you can create a copy of an array before shuffling it using the "slice()"" method or the Spread Operator (...).
+ * Here's how you can create a copy of an array before shuffling it using both of these methods; 
+ * 
+ * 
+ * Using the "slice()" method;
  */
+
+let originalArray = [1, 2, 3, 4, 5];
+let copiedArray = originalArray.slice();
+shuffleArray(copiedArray);
+
+// Function to shuffle the array
+function shuffleArray(array) {
+  // Shuffle the array using any method you prefer
+}
+
+// Using the Spread Operator(...);
+
+let originalArray = [1, 2, 3, 4, 5];
+let copiedArray = [...originalArray];
+shuffleArray(copiedArray);
+
+// Function to shuffle the array
+function shuffleArray(array) {
+  // Shuffle the array using any method you prefer
+}
+
+// Both methods create a new array that is a copy of the original array. 
+// The original array is not modified, and the shuffled array is returned by the shuffleArray() function.
+// This new array can then be shuffled without affecting the original array.
