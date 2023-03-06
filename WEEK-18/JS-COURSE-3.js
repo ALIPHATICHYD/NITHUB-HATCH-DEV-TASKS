@@ -47,3 +47,26 @@ function testSize(num){
 }
 // You can change the value here to test 
 console.log(testSize(7));
+
+
+/** Golf Code
+ * In the game of Golf each hole has a par. 
+ * Which means the average number of strokes you are supposed to use to get the ball into the hole.
+ * So depending on how far above or below par your strokes are, theres a different nickname.
+ * So we are going to write a function where you can pass in the par and you also pass in the strokes.
+ * And its going to return the nickname 
+ **/
+
+var names = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
+function golfScore(par, strokes){
+if (strokes == 1){
+    return names[0];
+}else if (strokes <= par - 2){
+    return names[1];
+}
+
+    return "Change Me";
+}
+
+// Change these values to test
+console.log(golfScore(5, 4));
