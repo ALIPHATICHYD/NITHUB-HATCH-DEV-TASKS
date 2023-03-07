@@ -91,6 +91,43 @@ if (strokes == 1){
 // Change these values to test
 console.log(golfScore(5, 4));
 
+
+/** Switch Statements
+ * Instead of using chained if else statements, you can use a switch statement.
+ * Switch statements tests a value and can have many case statements which define various possible values.
+ * Lets see how that works. 
+ * 
+ * Here we are going to write a switch statement which tests val and sets answer for the following conditions:
+ * 1 - "alpha"
+ * 2 - "beta"
+ * 3 - "gamma"
+ * 4 - "delta"
+ */
+
+function caseInSwitch(val){
+    var answer = "";
+    switch(val){
+        case 1:
+            answer = "alpha";
+            break;
+        case 2:
+            answer = "beta";
+            break;
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            answer = "delta";
+            break;
+    }
+
+    return answer;
+}
+
+// Change this value to test
+console.log(caseInSwitch(1));
+  
+
 /** Selecting from Many Options with Switch Statements
     * If you have many options to choose from, use a switch statement.
     * A switch statement tests a value and can have many case statements which define various possible values.
@@ -99,16 +136,54 @@ console.log(golfScore(5, 4));
     * Here is an example of a switch statement;
     */
 
-switch (num) {
-    case value1:
-        statement1;
-        break;
-    case value2:
-        statement2;
-        break;
-    default:
-        defaultStatement;
-        break;
+// switch (num) {
+//     case value1:
+//         statement1;
+//         break;
+//     case value2:
+//         statement2;
+//         break;
+//     default:
+//         defaultStatement;
+//         break;
+// }
+
+
+/** Default Option in Switch Statements  
+ * Now let me clarify the Default option in a switch statement.
+ * The default option is kind of like else in an if else statement 
+ * So heres a switch statement that is similar to the previous one and its inside the function where we pass in a value into the function.
+ * And we are going to check if the value equals "a".
+ * If it equals "a" the answer is going to be sent to "apple".
+ */
+
+function switchOfStuff(val){
+    var answer = "";
+    switch(val){
+        case "a":
+            answer = "apple";
+            break;
+        case "b":
+            answer = "bird";
+            break;
+        case "c":
+            answer = "cat";
+            break;
+/** What if we want to return something anytime a, b or c isn't passed through. 
+ * So for anything else thats passed into the function we're going to do default. This is like the else statement.
+* So if a, b or c isn't passed through we're going to return "stuff".
+ */
+        default:
+            answer = "stuff";
+            break; 
+    }
+    return answer;
 }
 
-    
+// Change this value to test
+console.log(switchOfStuff(2));
+
+
+/** Multiple Identical Options in Switch Statements
+ * 
+ */
