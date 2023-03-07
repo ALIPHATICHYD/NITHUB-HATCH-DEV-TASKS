@@ -55,18 +55,60 @@ console.log(testSize(7));
  * So depending on how far above or below par your strokes are, theres a different nickname.
  * So we are going to write a function where you can pass in the par and you also pass in the strokes.
  * And its going to return the nickname 
+ * 
+ * 
+ * Strokes         Return
+ * 1               "Hole-in-hole"
+ * <= par - 2      "Eagle"
+ * par - 1         "Birdie"
+ * par            "Par"
+ * par + 1         "Bogey"
+ * par + 2         "Double Bogey"
+ * >= par + 3      "Go Home"
  **/
 
-var names = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
+ 
+
+var names = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home"];
 function golfScore(par, strokes){
 if (strokes == 1){
     return names[0];
 }else if (strokes <= par - 2){
     return names[1];
+}else if (strokes == par - 1){
+    return names[2];
+}else if (strokes == par){
+    return names[3];
+}else if (strokes == par + 1){
+    return names[4];
+}else if (strokes == par + 2){
+    return names[5];
+}else if (strokes >= par + 3){
+    return names[6];
 }
-
-    return "Change Me";
 }
 
 // Change these values to test
 console.log(golfScore(5, 4));
+
+/** Selecting from Many Options with Switch Statements
+    * If you have many options to choose from, use a switch statement.
+    * A switch statement tests a value and can have many case statements which define various possible values.
+    * Statements are executed from the first matched case value until a break is encountered.
+    * If you have many options to choose from, use a switch statement. A switch statement tests a value and can have many case statements which define various possible values. Statements are executed from the first matched case value until a break is encountered.
+    * Here is an example of a switch statement;
+    */
+
+switch (num) {
+    case value1:
+        statement1;
+        break;
+    case value2:
+        statement2;
+        break;
+    default:
+        defaultStatement;
+        break;
+}
+
+    
