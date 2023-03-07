@@ -185,5 +185,17 @@ console.log(switchOfStuff(2));
 
 
 /** Multiple Identical Options in Switch Statements
- * 
+ * Sometimes you want a switch statement where multiple inputs give the same output.
+ * Well thats easy enough by omitting the break statement.
+ * Lets see how that works.
+ * So lets get a switch statement here.
  */
+
+function sequentialSizes(val){
+    var answer = "";
+
+    return answer;
+}
+
+// change this value to test 
+console.log(sequentialSizes(1));
