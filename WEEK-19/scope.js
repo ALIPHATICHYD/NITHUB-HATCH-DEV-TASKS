@@ -90,4 +90,44 @@ if(walletsHaveTheSameCurrency){
 
 
 
+const peaceSubscribers = 10_000;
+const target = 100_000;
+
+function sendNotification(count){
+    return 'Peace!!! now has ${count} subscribers'
+}
+
+while(peaceSubscribers < 10_001){
+    const report = sendNotification(peaceSubscribers);
+
+    let something = 10;
+
+console.log(report); // Inside this scope the log of the answer is defined, it will not give error
+peaceSubscribers++;
+}
+
+// console.log(report);  Outside the scope the log of the answer will give error at the end of the program, it is not defined
+
+
+
+var ochayan = "Queen";
+// let crocs;
+// const cash;
+
+var ochayan = "Our favorite weird person";
+
+var ochayanzMoney = 20_000_000;
+var ochayanzMoney = 10_000_000;
+
+console.log(ochayan);
+
+
+
+
+
+/** Based on variable Declaration and Initialization
+ * * Var - loose, allows you to "declare" and "initialize" an already declared and initialized value.
+ * * Let - strict, does not "declare" but it allows you to "re-initialize".
+ * * Const - very strict, does not initialize.
+ */
 

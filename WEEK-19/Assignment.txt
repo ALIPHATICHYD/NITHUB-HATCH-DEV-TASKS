@@ -1,0 +1,4 @@
+ASSIGNMENT FOR WEEK-20
+* Pass by value && Pass by reference
+* More scopes (var|let|const for i = 0, i = ) and closures.
+* More on var, let, and const.
