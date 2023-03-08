@@ -269,5 +269,51 @@ console.log(chainToSwitch());
 
 
 /** Returning Boolean Values from Functions
+ * Heres a little trick when you want a function to return a Boolean, a true or false value.
+ * You can see in this function we are checking if this a is less than b and if so we return false.
+ * You may remember from before the all comparison operators return a Boolean true or false value.
+ * So instead of using this if statement here we can just delete all of these code below and just return the result of (a < b).
+ */
+
+function isLess(a, b){
+    // Fix this code 
+    if (a < b){
+        return true;
+    } else {
+        return false;
+    }
+}
+//* So instead of using this if statement here we can just delete all of these code above and just return the result of (a < b)
+function isLess(a, b){
+    // Fix this code
+    return a < b;
+}
+
+// Change these values to test
+console.log(isLess(10, 15));
+
+/** Returning Early Patterns from Functions
+ * We have seen few examples of this before 
+ * But you can return early from a function with the return statement.
+ * So looking at this function below we return at the very end of the function.
+ * So it leaves the function and returns this value from the function.
+ * But you can leave the function anytime with a return statement.
+ * So we are gonna modify this function so that if a or b are less than 0, the function will immediately exit the value of "Undefined".
+ * So lets do that 
+ * we are going to set an if statement;
+ */
+
+function abTest(a, b){
+    // Only change code below thus line 
+if (a < 0 || b < 0){
+    return undefined; 
+}
+
+    // Only change code above this line 
+return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+console.log(abTest(-2,2)); 
+
+/** Counting Cards
  * 
  */
