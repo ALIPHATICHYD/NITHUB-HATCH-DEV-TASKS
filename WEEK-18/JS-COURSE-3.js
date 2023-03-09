@@ -334,6 +334,13 @@ console.log(abTest(-2,2));
 var count = 0;
 
 function cc(card){
+    switch(card){
+        case 2: 
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+    }
 
     return "Change Me";
 
