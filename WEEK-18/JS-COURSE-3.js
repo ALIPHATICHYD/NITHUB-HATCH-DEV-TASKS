@@ -315,5 +315,9 @@ return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 console.log(abTest(-2,2)); 
 
 /** Counting Cards
+ * We are going to create a blackjack card counting function.
+ * So, how card counting works is that you keep track of the relative number of high and low cards remaining in the deck.
+ * At least how is this function going to work.
+ * 
  * 
  */
