@@ -317,7 +317,27 @@ console.log(abTest(-2,2));
 /** Counting Cards
  * We are going to create a blackjack card counting function.
  * So, how card counting works is that you keep track of the relative number of high and low cards remaining in the deck.
- * At least how is this function going to work.
- * 
- * 
+ * At least how is this function going to work is that when you see a low card, the count goes up,
+ * And when you see a high card the count goes down,
+ * And if its a middle value card, the count stays the same,
+ * And when the count is positive, the player should bet high,
+ * And when the count is zero or negative, the player should bet low.
+ * So we are going to use a Switch Statement to figure out what card has been passed in and what to do about it.
+ * You can see the function looks like this - cc and we pass in the card,
+ * And depending on what the card is, its going to increase the global count variable or its going to decrease it or its going to stay the same,
+ * And then we are going to return two things;
+ * We are going to return the current count value  and we are going to return the string "Bet" or "Hold".
+ * So every time you call the cc function, it going to change the count value and return the total count.
+ * So lets ee how its going to work.
  */
+
+var count = 0;
+
+function cc(card){
+
+    return "Change Me";
+
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+console.log(cc(4));
