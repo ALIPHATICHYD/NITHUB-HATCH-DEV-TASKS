@@ -342,16 +342,57 @@ function cc(card){
         case 6:
             count++;
             break;
-        case 7:
-        case 8:
-        case 9:
-
-
+        case 10:
+        case "J":
+        case "Q":
+        case "K":
+        case "A":
+        count--;
+        break;
     }
 
-    return "Change Me";
+    var holdbet = 'hold';
+    if (count > 0){
+        holdbet = 'Bet';
+    }
+
+    return count + "" + holdbet;
 
 }
 
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+cc(2); cc('K'); cc(10); cc('K'); cc('A');
 console.log(cc(4));
+
+
+/** Build JavaScript Objects
+ * Objects are similar to array except that instead of using indexes to access data, you use properties.
+ * So here is an example of an object called ourDog👇🏽
+ * Objects are going to be defined with these curly braces at the beginning and the end.
+ * And these are the properties, now the properties are everything before the colons.
+ * So we have "name" which is a property,
+ * we have "legs" also the property,
+ * And we have the values which are the things after the colons here.
+ * Now you can see that the properties can be strings, numbers, arrays, they can be literally any Datatype in JavaScript.
+ */
+
+var ourDog = {
+    "name" : "BuskiBuski",
+    "legs" : 4,
+    "tails" : 1,
+    "friends" : ["everything!"]
+};
+
+// Only change code below this line.
+// Now we are going to create our own Fox
+
+var myFox = {
+    "name" : "Kurama",
+    "legs" : 4,
+    "tails" : 9,
+    "friends" : [] 
+    // We have now created our own object 
+}
+
+/** Accessing Object Properties With Dot Notation
+ * 
+ */
