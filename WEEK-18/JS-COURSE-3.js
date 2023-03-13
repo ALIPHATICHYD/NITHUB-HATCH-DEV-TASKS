@@ -394,5 +394,19 @@ var myFox = {
 }
 
 /** Accessing Object Properties With Dot Notation
- * 
+ * There are two main ways to access a property on an object.
+ * The first I will discuss here is the (dot notation).
  */
+
+// Setup
+var testObj = {
+    "hat" : "Abetiaja",
+    "shirt" : "Buba",
+    "shoes" : "Salubata"
+
+};
+
+// Only change code below this line 
+
+var hatValue = testObj;
+var shirtValue = testObj;
