@@ -396,6 +396,8 @@ var myFox = {
 /** Accessing Object Properties With Dot Notation
  * There are two main ways to access a property on an object.
  * The first I will discuss here is the (dot notation).
+ * So we have this testObj, and we have "hat", "shirt", and "shoes", and we want to find out the values of these properties.
+ * So how to use the (dot notation) - we put a dot or a period and then the name of the property.
  */
 
 // Setup
@@ -408,5 +410,10 @@ var testObj = {
 
 // Only change code below this line 
 
-var hatValue = testObj;
-var shirtValue = testObj;
+var hatValue = testObj.hat;
+var shirtValue = testObj.shirt;
+
+
+/** Accessing Object Property With Bracket Notation
+ * 
+ */
