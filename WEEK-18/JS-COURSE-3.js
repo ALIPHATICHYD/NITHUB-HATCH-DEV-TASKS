@@ -415,5 +415,58 @@ var shirtValue = testObj.shirt;
 
 
 /** Accessing Object Property With Bracket Notation
+ * You can use bracket notations anytime but it is required if the name has a space in it.
+ * You will see that in this object👇🏽, we have 3 properties and each of them have a space.
+ * So to get the values of these properties we are going to have to use the (bracket notation).
+ * So the entreeValue e are going to do testObj. Thats the name of the object and we are going to put brackets kind of like an array index.
+ * So you'll be opening and closing brackets and inside we will put the name of the property.
+ */
+
+var testObj = {
+    "an entree": "hoodie",
+    "my side": "blazer",
+    "my drink": "agbojedi"
+};
+
+// You can change only this line 
+
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["my drink"];
+
+
+/** Accessing Object Properties With Variables
+ * Bracket notations can also be used to look up object properties using variables.
+ * So here👇🏽 we have the testObj, we also have the different numbers associated with these names here👇🏽 
+ * And we are going to set this variable to one of the numbers.
+ * So I will set this to be 16
  * 
  */
+
+var testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas",
+};
+
+// Only change this code below this line 
+
+var playerNumber = 16;
+var player = testObj[playerNumber];
+
+
+
+/** Updating Object Properties
+ * We can use dot notation to update object properties.
+ * Here👇🏽 you will see an Object called ourFox, it has name, legs, tails, friends and the name is Kurama.
+ * However over here we used dot notation ourFox.name and used the assignment operator(=), to set the name to Angry Kurama.
+ * So if we console.log on ourFox.name, it would no longer be "Kurama", it will be "Angry Kurama". 
+ */
+
+var ourFox = {
+    name: "",
+    legs: "",
+    tails: "",
+    friends: ["Hokage"]
+};
+
+ourFox.name = "Angry Kurama";
