@@ -487,5 +487,17 @@ myOct['sound'] = "rap!";
 
 
 /** Delete Properties From an Object
- * 
+ * Its simple to delete a property from an object.
+ * Our ourFox has all these properties and with the delete keyword (delete ourFox.sound).
+ * So now the sound property will be deleted and is no longer in the object after we've deleted it. 
  */
+
+var ourFox = {
+    name: "Kurama",
+    legs: "4",
+    tails: "9",
+    friends: ["Hokage"],
+    sound: "roar!"
+};
+
+delete ourDog.sound;
