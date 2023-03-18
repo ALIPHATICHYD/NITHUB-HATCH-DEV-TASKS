@@ -468,12 +468,9 @@ var ourFox = {
     tails: "9",
     friends: ["Hokage"]
 };
-
 ourFox.name = "Angry Kurama";
 
-
 //Setup
-
 var ourOct = {
     name: "Octo",
     legs: 2,
