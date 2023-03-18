@@ -37,4 +37,33 @@ class Human {
  * Prototypes allow you to define methods and properties on an object's prototype, which can then be inherited by all instances of that object.
  * This is done using the prototype property of a constructor function or object, like this👇🏽:
  */
+class Animal {
+    constructor(name) {
+      this.name = name;
+    }
+  
+    speak() {
+      console.log(`${this.name} makes a noise.`);
+    }
+  }
+  
+  class Dog extends Animal {
+    constructor(name) {
+      super(name);
+    }
+  
+    speak() {
+      console.log(`${this.name} barks.`);
+    }
+  }
+  
+  const d = new Dog('Mitzie');
+  d.speak(); // logs "Mitzie barks."
+
+/** In this example, 'Dog' is a subclass of 'Animal', which means it inherits all of the properties and methods of 'Animal'. 
+ * By defining a 'speak()' method in 'Dog', we can override the default behavior of 'Animal' and create a more specific behavior for 'Dog' instances.
+ * Overall, object-oriented programming in JavaScript provides a powerful tool-set for building complex and scalable applications.
+ * And is a core skill💪🏾 for any modern web developer🛠️.
+ */
+  
   
