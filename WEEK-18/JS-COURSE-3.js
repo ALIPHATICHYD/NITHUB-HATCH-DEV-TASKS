@@ -463,10 +463,24 @@ var player = testObj[playerNumber];
  */
 
 var ourFox = {
-    name: "",
-    legs: "",
-    tails: "",
+    name: "Kurama",
+    legs: "4",
+    tails: "9",
     friends: ["Hokage"]
 };
 
 ourFox.name = "Angry Kurama";
+
+
+//Setup
+
+var ourOct = {
+    name: "Octo",
+    legs: 2,
+    tails: 9,
+    friends: ["Bee"]
+};
+
+// Only change code below this line
+myOct['sound'] = "rap!"; 
+// And thats how you add properties to objects.
