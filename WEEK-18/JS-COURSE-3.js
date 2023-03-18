@@ -484,3 +484,8 @@ var ourOct = {
 // Only change code below this line
 myOct['sound'] = "rap!"; 
 // And thats how you add properties to objects.
+
+
+/** Delete Properties From an Object
+ * 
+ */
