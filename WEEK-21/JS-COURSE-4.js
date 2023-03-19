@@ -217,7 +217,7 @@ var collection = {
     },
 
     "5439": {
-        "album": ""
+        "album": "Odogwu"
     }
 
 };
@@ -227,11 +227,23 @@ var collectionCopy = JSON.parse(JSON.stringify(collection));
 
 // Only change code below this line 
 function updateRecords(id, prop, value){
+    if (value === ""){
+        delete collection[id][prop];
+    } else if (props === "tracks") {
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    } else {
+        collection[id][prop] = value;
+    }
 
 
     return collection;
 }
 
+
+// Alter values to test your codes 
+updateRecords(2468, "tracks", "test");
+console.log(updateRecords(5439, "artist", "Odogwu"));
 
 
 
