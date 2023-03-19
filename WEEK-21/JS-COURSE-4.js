@@ -54,4 +54,28 @@ function phoneticLookup(val) {
 console.log(phoneticLookup("foxtrot"));
 
 /** Testing Objects for Properties
+ * You can check if an object has a property with the hasown property method.
+ * Lets see how to use this method and finish making this function where we check if an object has a specific property.
+ * If it doesn't have the specific property we'll return "Not Founds".
+ * Lets see how thats gonna work👇🏽.
+ */
+
+var myObj = {
+    gift: "pony",
+    pet: "kitten",
+    bed: "sleigh"
+};
+
+function checkObj(checkProp){
+    // Your Code Here 
+    if (myObj.hasOwnProperty(checkProp)){
+        return myObj[checkProp];
+    }else {
+        return "Not Found"; 
+    }
+};
+
+console.log(checkObj("gift"));
+
+/** Manipulating Complex Objects
  */
