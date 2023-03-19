@@ -32,6 +32,26 @@ function phoneticLookup(val) {
             break;
         
     }
+// We can replace the switch statement above👆🏾 with an object and ue the object for lookups instead of the switch statement.
+// This is called a 'lookup table' or 'associative array'.
+// The object is called 'lookup' and it has key value pairs.
+// The key is the value that we are looking for and the value is the value that we want to return.
+// So when we pass in 'alpha' to the function it returns 'Adams'.
+// So we can replace the switch statement with the object below👇🏽:
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank"
+    };
+    result = lookup[val];
 
 
 }
+// Change the value to test 
+console.log(phoneticLookup("foxtrot"));
+
+/** Testing Objects for Properties
+ */
