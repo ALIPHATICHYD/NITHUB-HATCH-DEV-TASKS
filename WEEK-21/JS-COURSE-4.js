@@ -137,5 +137,107 @@ console.log(gloveBoxContents)
 
 
 /** Accessing Nested Arrays
+ * Array bracket notation can be changed to access nested arrays.
+ * You will see that we have an array here👇🏽 and inside the array are 2 objects.
+ * 
+ */
+
+var myPlants = [
+    {
+        type: "flowers",
+        list: [
+            "rose",
+            "tulip",
+            "hibiscus"
+        ]
+    },
+
+    {
+        type: "trees",
+        list: [
+            "iroko",
+            "pine",
+            "palm"
+        ]
+
+    }
+
+];
+
+// Only change code below this line
+var secondTree = myPlants[1].list[1]; // Change this line
+
+
+/** Record Collection
+ * This is a coding challenge we are going to do.
+ * We are given this object here which is the Record Collection.
+ * Each record has an ID and then also has different pieces of information about the record.
+ * They don't all have the same information, but you will see that we have "album", "artist", "track".
+ * And we are supposed to create this updateRecord function where we can pass in the ID, the property and the value.
+ * And its going to update our record collection with the property and the value.
+ * So, for instance, if we pass in the ID "2468" and we put the property "artist".
+ * And if we set a different value like "Quincy" or something like that, then we should update this👇🏽 whole object.
+ * So, now it says "Quincy" instead of "Prince".
+ * And we should return the full collection.
+ * So, its gonna update the collection then return the collection.
+ * If we have an empty string for the value, it should just completely delete that property.
+ * Also if we have the property of tracks and then we have a value, instead of updating the whole tracks here👇🏽 with what we put in.
+ * Its just going to add the track to the end of this array.
+ * So if you really look down there, the comment says "Keep a copy of the collection for test".
+ * The (JSON.parse) and (JSON.stringify) and then 'collection', this is just a fancy way in javascript to make a copy of the object.
+ * Remember in our function we are going to be changing the collection object.
+ * But we wanna have a copy of the original object before anything was changed, so thats whats thats for. 
+ * So, lets go ahead and do that🔥🚀
+ */
+
+// Setup
+var collection = {
+    "2548": {
+        "album": "",
+        "artist": "",
+        "tracks": [
+            "",
+            "",
+        ]
+
+    },
+
+    "2468": {
+        "album": "",
+        "artist": "",
+        "tracks": [
+            "",
+            "",
+        ]
+    },
+
+    "1245": {
+        "artist": "",
+        "tracks": []
+    },
+
+    "5439": {
+        "album": ""
+    }
+
+};
+
+// Keep a copy of the collection for tests 
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+
+// Only change code below this line 
+function updateRecords(id, prop, value){
+
+
+    return collection;
+}
+
+
+
+
+
+
+
+/** Iterate With While Loops
  * 
  */
