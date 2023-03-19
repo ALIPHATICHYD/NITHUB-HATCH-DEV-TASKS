@@ -78,4 +78,64 @@ function checkObj(checkProp){
 console.log(checkObj("gift"));
 
 /** Manipulating Complex Objects
+ * A JavaScript Object is a way to store flexible data.
+ * So you can store strings, numbers and arrays and even other object.
+ * So in this example👇🏽 we have an array called 'myMusic'. We can see it's an array because we have the open bracket and closed bracket.
+ * But inside the array are objects.
+ */
+
+var myMusic = [
+    {
+        "artist": 'Rema',
+        "title": 'Holiday',
+        "release_year": '2023',
+        "formats": [
+            "Spotify",
+            "Apple Music",
+            "Audio Mack",
+        ],
+        "gold": true
+    },
+    // Add record here 
+    {
+        "artist": 'Ashake',
+        "title": 'Joha',
+        "release_year": '2022',
+        "formats": [
+            "Spotify",
+            "Apple Music",
+            "Audio Mack",
+        ],
+    }
+
+];
+
+
+/** Accessing Nested Objects 
+ * Here👇🏽 we have an object with other objects nested inside it.
+ * So in order to access sub-properties of an object, you can chain together the dot or bracket or bracket notation.
+ * So we will try to get the (gloveBoxContents).
+ */
+
+var myStorage = {
+    "car": {
+        "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+        },
+        "outside":{
+            "trunk": "jack"
+        }
+
+    }
+
+};
+
+var gloveBoxContents = myStorage.car.inside["glove box"]; // You can change this line.
+
+console.log(gloveBoxContents)
+
+
+/** Accessing Nested Arrays
+ * 
  */
