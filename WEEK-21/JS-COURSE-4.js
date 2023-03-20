@@ -258,3 +258,16 @@ console.log(updateRecords(5439, "artist", "Odogwu"));
  */
 
 var myArray = []; 
+
+var i = 0;
+while (i < 5) {
+    myArray.pish(i);
+    i++
+};
+
+console.log(myArray);
+
+
+/** Iterate With For Loops
+ * 
+ */
