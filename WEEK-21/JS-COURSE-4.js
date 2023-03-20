@@ -269,5 +269,6 @@ console.log(myArray);
 
 
 /** Iterate With For Loops
+ * A for loop is the most common type of loop in JavaScript.
  * 
  */
