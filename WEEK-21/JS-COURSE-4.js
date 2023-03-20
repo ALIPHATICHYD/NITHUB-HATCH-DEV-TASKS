@@ -251,5 +251,10 @@ console.log(updateRecords(5439, "artist", "Odogwu"));
 
 
 /** Iterate With While Loops
- * 
+ * Loops allows you to run the same code multiple times,
+ * We are going to use a while loop to do this.
+ * This while loop will run a  specified condition is true and stops when it no longer true.
+ * Heres how its going to work.
  */
+
+var myArray = []; 
