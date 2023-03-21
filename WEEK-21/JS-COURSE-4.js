@@ -276,7 +276,7 @@ console.log(myArray);
 
 var ourArray = [];
 
-for (var i = 0 ; i < 5; i++) {
+for (var i = 0 ; i < 5; i++) { // So here 👈🏾is an example of a for loop, oyu start with the keyword (for), and then we have the parenthesis  with three different items and they are separated by semicolons, the first thing is the initialization, then we have the condition, then we have the final expression.
     ourArray.push(i);
 };
 
