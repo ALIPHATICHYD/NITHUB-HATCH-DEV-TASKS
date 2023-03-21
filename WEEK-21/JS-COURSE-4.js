@@ -270,5 +270,18 @@ console.log(myArray);
 
 /** Iterate With For Loops
  * A for loop is the most common type of loop in JavaScript.
+ * So here is an example with
  * 
  */
+
+var ourArray = [];
+
+for (var i = 0 ; i < 5; i++) {
+    ourArray.push(i);
+};
+
+// Setup 
+
+var myArray = [];
+
+// Only change code below this line 
