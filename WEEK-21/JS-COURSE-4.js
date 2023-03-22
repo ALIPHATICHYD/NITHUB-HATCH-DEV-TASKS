@@ -286,3 +286,14 @@ for (var i = 0 ; i < 5; i++) { // So here 👈🏾is an example of a for loop, o
 var myArray = [];
 
 // Only change code below this line 
+
+for (var i = 1; i < 6; i++) {
+    myArray.push(i);
+} 
+
+console.log(myArray);
+
+
+/** Iterate Odd Numbers with a For Loop 
+ * 
+ */
