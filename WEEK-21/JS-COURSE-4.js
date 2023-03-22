@@ -277,6 +277,7 @@ console.log(myArray);
 var ourArray = [];
 
 for (var i = 0 ; i < 5; i++) { // So here 👈🏾is an example of a for loop, oyu start with the keyword (for), and then we have the parenthesis  with three different items and they are separated by semicolons, the first thing is the initialization, then we have the condition, then we have the final expression.
+// So, the initialization before any of the code inside the loop runs. So we start by initializing (i) equal to (0), so this is what most for loops start with, if you have a variable that you are going to initialize for the for loop. The next thing is the condition. So, once this evaluates to false we break out of the loop. So, while (i) is less than 5 we will continue to run through the loop over and over until this is false and we break out of the loop. So, while (i) is less than 5 we'll continue to run through the loop over and over until this is false and we break out of the loop. The final thing is what we do at the end of each iteration. At the end of each iteration, we will increment by 1. In this example, we are filling our array with the numbers 0 through 4. 
     ourArray.push(i);
 };
 
