@@ -297,3 +297,16 @@ console.log(myArray);
 /** Iterate Odd Numbers with a For Loop 
  * 
  */
+
+var ourArray = [];
+
+for (var i = 0; i < 10; i += 2) {
+    ourArray.push(i);
+}
+
+console.log(ourArray);
+
+// Setup
+var myArray = [];
+
+// Only change code below this line.
