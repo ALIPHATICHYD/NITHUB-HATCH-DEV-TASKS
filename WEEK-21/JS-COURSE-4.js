@@ -295,7 +295,10 @@ console.log(myArray);
 
 
 /** Iterate Odd Numbers with a For Loop 
- * 
+ * Loops don't just have to increment one at a time, look at the for loop here👇🏽.
+ * We have our initialization where we initialize (i) to 0. And then we are going to run the loop until i is less than 10.
+ * And finally, our increment, instead of incrementing (i) by 1, we are going to increment (i) by 2.
+ * So now this is going to push all the even numbers onto the array. 
  */
 
 var ourArray = [];
@@ -310,3 +313,15 @@ console.log(ourArray);
 var myArray = [];
 
 // Only change code below this line.
+// This is another loop that creates an array of odd numbers. 
+
+for (var i = 1; i < 10; i += 2){
+    myArray.push(i);
+}
+
+console.log(myArray);
+
+
+/** Count Backwards With A For Loop. 
+ * 
+ */ 
