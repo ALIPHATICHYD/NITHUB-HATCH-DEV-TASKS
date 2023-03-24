@@ -323,5 +323,8 @@ console.log(myArray);
 
 
 /** Count Backwards With A For Loop. 
+ * A for loop can also be used to count backwards. So, if we see this loop here, we are initializing (i) to 10.
+ * We are starting at 10 and we are going back to the 0.
  * 
  */ 
+
