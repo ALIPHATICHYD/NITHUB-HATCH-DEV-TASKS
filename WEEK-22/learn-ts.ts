@@ -24,3 +24,9 @@ class BluePrint {
 
 }
 
+const olaideHouse = new BluePrint("5 km", `3 km`, '2 km', "PILE")
+const anonymousHouse = new BluePrint("393 miles", "290 miles", "903 miles", "STRIP")
+const goldenHouse = new BluePrint('1cm', '1cm', '1cm', "PIER")
+
+
+console.log()
