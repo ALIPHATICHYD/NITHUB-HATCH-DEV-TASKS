@@ -177,4 +177,80 @@ user1 = new Person('Max');
 user1.greet('Hi there - I am');
 
 
+/** Composing Types
+ * With TypeScript, you can create complex types by combining simple ones.
+ * There are two popular ways to do so: with unions, and with generics.
+ *
+ ** Unions 
 
+ With a union, you can declare that a type could be one of many types.
+  For example, you can describe a boolean type as being either true or false:
+*/
+
+  type MyBool = true | false;
+
+  /**
+   Note: If you hover over MyBool above, you’ll see that it is classed as boolean. That’s a property of the Structural Type System. More on this below.
+
+  A popular use-case for union types is to describe the set of string or number literals that a value is allowed to be:
+   */
+
+type WindowStates = "open" | "closed" | "minimized";
+type LockStates = "locked" | "unlocked";
+type PositiveOddNumbersUnderTen = 1 | 3 | 5 | 7 | 9;
+
+// Unions provide a way to handle different types too. For example, you may have a function that takes an array or a string:
+
+function getLength(obj: string | string[]) {
+  return obj.length;
+}
+
+/**
+Type      	Predicate
+string	    typeof s === "string"
+number    	typeof n === "number"
+boolean    	typeof b === "boolean"
+undefined 	typeof undefined === "undefined"
+function  	typeof f === "function"
+array	      Array.isArray(a)
+ */
+
+
+//For example, you can make a function return different values depending on whether it is passed a string or an array:
+
+function wrapInArray(obj: string | string[]) {
+  if (typeof obj === "string") {
+    return [obj];
+  } else {
+    return obj;
+  }
+}
+
+/** Generics
+  Generics are a way of creating components that can work over a variety of types rather than a single one.
+  Generics provide variables to types. A common example is an array. An array without generics could contain anything. An array with generics can describe the values that the array contains
+ */
+
+type StringArray = Array<string>;
+type NumberArray = Array<number>;
+type ObjectWithNameArray = Array<{ name: string }>;
+
+
+// You can declare your own types that use generics:
+
+interface Backpack<Type> {
+  add: (obj: Type) => void;
+  get: () => Type;
+}
+ 
+// This line is a shortcut to tell TypeScript there is a
+// constant called `backpack`, and to not worry about where it came from.
+declare const backpack: Backpack<string>;
+ 
+// object is a string, because we declared it above as the variable part of Backpack.
+const object = backpack.get();
+ 
+// Since the backpack variable is a string, you can't pass a number to the add function.
+backpack.add(23);
+
+// Argument of type 'number' is not assignable to parameter of type 'string'.
