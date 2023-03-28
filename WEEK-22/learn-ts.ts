@@ -55,10 +55,10 @@ interface User {
 
 // You can then declare that a JavaScript object conforms to the shape of your new interface by using syntax like : TypeName after a variable declaration:
 
-// const user: User = {
-//     name: "Hayes",
-//     id: 0,
-//   };
+const avg: User = {
+    name: "Hayes",
+    id: 0,
+  };
 
 
 // TypeScript will now warn you if you try to assign an object that doesn’t match the interface you have provided:
@@ -96,4 +96,85 @@ class UserAccount {
   }
 }
  
-const user: User = new UserAccount("Murphy", 1);
+const person: User = new UserAccount("Murphy", 1);
+
+
+// You can also use an interface declaration with a function, or use interfaces to annotate parameters and return values to functions:
+
+interface User {
+  name: string;
+  id: number;
+}
+
+function getUser(user: User) {
+  return user;
+}
+
+/** There is already a small set of primitive types available in JavaScript:
+ * boolean, bigint, null, number, string, symbol, and undefined, which you can use in an interface. 
+ * TypeScript extends this list with a few more, such as any (allow anything), unknown  
+ * ensure someone using this type declares what the type is), never (it’s not possible that this type could happen),
+ * and void (a function which returns undefined or has no return value).
+ * You’ll see that there are two syntaxes for building types: Interfaces and Types.
+ * You can use either one interchangeably, but there are some subtle differences.
+ * You should prefer interface. Use type when you need specific features.
+ * For example, type aliases can’t be extended or implemented from (nor can they extend/implement other types).
+ * Interfaces can do both.
+ * You can also use interfaces to declare a function type.
+ * This is a way of describing a function’s type without giving an explicit function implementation.
+ * You can use this to describe callbacks, or to describe higher-order functions.
+ * For example, the following interface allows you to describe a function that takes two numbers and returns a number:
+ */
+
+interface AddFn {
+  (a: number, b: number): number;
+}
+
+let add: AddFn;
+
+add = (n1: number, n2: number) => {
+  return n1 + n2;
+}
+
+/** You can also use interfaces to describe objects that have functions as properties.
+ * For example, the following interface allows you to describe an object that has a greet function:
+ * You can use this to describe objects that have functions as properties. 
+ */
+
+interface Named {
+  readonly name?: string;
+  outputName?: string;
+}
+
+interface Greetable extends Named {
+  greet(phrase: string): void;
+}
+
+class Person implements Greetable {
+
+  name?: string;
+  age = 30;
+
+  constructor(n?: string) {
+    if (n) {
+      this.name = n;
+    }
+  }
+
+  greet(phrase: string) {
+    if (this.name) {
+      console.log(phrase + ' ' + this.name);
+    } else {
+      console.log('Hi!');
+    }
+  }
+}
+
+let user1: Greetable;
+
+user1 = new Person('Max');
+
+user1.greet('Hi there - I am');
+
+
+
