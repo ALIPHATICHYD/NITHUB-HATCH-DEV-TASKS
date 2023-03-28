@@ -309,5 +309,3 @@ logPoint(newVPoint); // logs "13, 56"
 
 
 
-
-
