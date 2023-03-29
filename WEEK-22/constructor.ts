@@ -30,3 +30,16 @@ const goldenHouse = new BluePrint('1cm', '1cm', '1cm', "PIER")
 
 
 console.log()
+
+
+
+// Path: WEEK-22/constructor.ts
+class Student {
+    level: number
+}
+
+
+const garbaOchayan = new Student('Garba', 'Ochayan', 'richkid@gmail.com', 200);
+console.log(garbaOchayan);
+
+garbaOchayan
