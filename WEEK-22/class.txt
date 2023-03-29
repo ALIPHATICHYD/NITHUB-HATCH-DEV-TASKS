@@ -1,3 +1,23 @@
 1. Static Properties and Methods 
 2. Access Modifiers
 3. 
+
+Types of Access Modifiers
+
+Public
+Private
+Protected
+Internal
+Protected Internal
+
+
+Public Access Modifiers are accessible from anywhere in the program.
+
+Private Access Modifiers are accessible only within the class.
+
+Protected Access Modifiers are accessible within the class and derived class.
+
+Internal Access Modifiers are accessible within the assembly.
+
+Protected Internal Access Modifiers are accessible within the assembly and derived class.
+
