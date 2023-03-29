@@ -328,3 +328,23 @@ console.log(myArray);
  * So we are going to iterate through this loop while (i) is more than 0. 
  */ 
 
+var ourArray = [];
+
+for (var i = 1 ; i > 0; i -= 2){
+    ourArray.push(i);
+}
+
+console.log(ourArray);
+
+// Setup
+
+var myArray = [];
+
+// Only change code below this line.
+
+for (var i = 9; i > 0; i -= 2){
+    myArray.push(i);
+}
+
+console.log(myArray);
+
