@@ -1,0 +1,16 @@
+img {
+    width: 50px;
+  }
+  
+  #face {
+    width: 400px;
+    position: relative;
+  }
+  
+  /* Example */
+  #crown {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    width: 100px;
+  }
