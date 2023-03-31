@@ -348,3 +348,32 @@ for (var i = 9; i > 0; i -= 2){
 
 console.log(myArray);
 
+
+/** Iterate Through An Array With A For Loop 
+ * 
+ */
+
+var ourArray = [9, 10, 11, 12];
+var ourTotal = 0;
+
+for (var i = 0; i < ourArray.length; i++){
+    ourTotal += ourArr[i];
+}
+
+console.log(ourTotal);
+
+
+// Setup
+var myArray = [2, 3, 4, 5, 6];
+
+// Only change code below this line.
+
+var total = 0;
+
+for (var i = 0; i < myArray.length; i++){
+    total += myArray[i];
+}
+
+console.log(total);
+
+
