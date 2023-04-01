@@ -377,3 +377,10 @@ for (var i = 0; i < myArray.length; i++){
 console.log(total);
 
 
+
+/** Nesting For Loops
+ *  
+ */
+
+
+
