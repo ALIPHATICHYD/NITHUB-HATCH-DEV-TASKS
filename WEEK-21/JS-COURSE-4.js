@@ -379,8 +379,16 @@ console.log(total);
 
 
 /** Nesting For Loops
- *  
+ *  If you have a multidimensional or nested array, you can use nested loops to access the all the array elements. So, for instance, we 
  */
 
+function multiplyAll(arr){
+    var product = 1; 
 
+    return product;
+}
+
+var product = multiplyAll([[1,2], [3,4], [5,6,7]]);
+
+console.log(product);
 
