@@ -23,6 +23,33 @@ In a distributed version control system, every developer has a full copy of the 
 
 * Businesses using Git can break down communication barriers between teams and keep them focused on doing their best work. Plus, Git makes it possible to align experts across a business to collaborate on major projects.
 
+## Installing Git
+
+## Installing on Windows
+There are also a few ways to install Git on Windows. The most official build is available for download on the Git website. Just go to https://git-scm.com/download/win and the download will start automatically. Note that this is a project called Git for Windows, which is separate from Git itself; for more information on it, go to https://gitforwindows.org.
+To get an automated installation you can use the Git Chocolatey package. Note that the Chocolatey package is community maintained.
+
+## Installing on macOS
+There are several ways to install Git on macOS. The easiest is probably to install the Xcode Command Line Tools. On Mavericks (10.9) or above you can do this simply by trying to run git from the Terminal the very first time.
+```
+$ git --version
+```
+If you don’t have it installed already, it will prompt you to install it.
+
+If you want a more up to date version, you can also install it via a binary installer. A macOS Git installer is maintained and available for download at the Git website, at https://git-scm.com/download/mac.
+
+## Installing on Linux
+If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use dnf:
+```
+$ sudo dnf install git-all
+```
+If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+```
+$ sudo apt install git-all
+```
+For more options, there are instructions for installing on several different Unix distributions on the Git website, at https://git-scm.com/download/linux.
+
+
 
 ## About Repositories 
 
@@ -35,4 +62,5 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 GitHub hosts Git repositories and provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built.
 
 GitHub builds collaboration directly into the development process. Work is organized into repositories where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page. 
+
 
