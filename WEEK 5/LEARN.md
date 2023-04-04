@@ -154,8 +154,15 @@ If you want to get a copy of an existing Git repository — for example, a p
 You clone a repository with git clone <url>. For example, if you want to clone the Git linkable library called libgit2, you can do so like this:
 ```
 $ git clone https://github.com/libgit2/libgit2
-```
 That creates a directory named libgit2, initializes a .git directory inside it, pulls down all the data for that repository, and checks out a working copy of the latest version. If you go into the new libgit2 directory that was just created, you’ll see the project files in there, ready to be worked on or used.
+
+
+## Checking the Status of Your Files
+
+You can check the status of your files at any time by running the git status command. If you’ve created or modified any files, Git will tell you about them. If you’ve created a new file but haven’t added it to Git yet, it will tell you that it’s untracked. If you’ve modified a file but haven’t committed it to your local repository yet, it will tell you that it’s modified. If you’ve committed your changes but haven’t pushed them to your remote repository yet, it will tell you that your branch is ahead of your remote branch.
+
+
+## Tracking New Files
 
 
 
@@ -179,5 +186,6 @@ Through platforms like GitHub, Git also provides more opportunities for project 
 GitHub hosts Git repositories and provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace. With collaboration layers like the GitHub flow, a community of 15 million developers, and an ecosystem with hundreds of integrations, GitHub changes the way software is built.
 
 GitHub builds collaboration directly into the development process. Work is organized into repositories where developers can outline requirements or direction and set expectations for team members. Then, using the GitHub flow, developers simply create a branch to work on updates, commit changes to save them, open a pull request to propose and discuss changes, and merge pull requests once everyone is on the same page. 
+
 
 
