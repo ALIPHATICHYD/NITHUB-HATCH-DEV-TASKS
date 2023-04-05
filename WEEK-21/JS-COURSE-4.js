@@ -404,3 +404,21 @@ var product = multiplyAll([[1,2], [3,4], [5,6,7]]);
 console.log(product);
 
 
+
+/** Iterate With Do...While Loops
+ * 
+ */
+
+// Setup 
+var myArray = [];
+var i = 10; 
+
+
+// Only Change Code Below This Line
+
+while (i < 5 ){
+    myArray.push(i);
+    i++;
+}
+
+console.log(i, myArray);
