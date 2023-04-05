@@ -406,7 +406,8 @@ console.log(product);
 
 
 /** Iterate With Do...While Loops
- * 
+ * I've talked about while loops, and I'm going to review this while loops.
+ * And then I will tell you how a do while loop is different than while loop 
  */
 
 // Setup 
