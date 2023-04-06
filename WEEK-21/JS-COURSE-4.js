@@ -408,6 +408,8 @@ console.log(product);
 /** Iterate With Do...While Loops
  * I've talked about while loops, and I'm going to review this while loops.
  * And then I will tell you how a do while loop is different than while loop 
+ * So this while loop first checks the condition before it runs any code within the loop.
+ * A do while loop will always run at least one time and then it will check the condition.
  */
 
 // Setup 
