@@ -1,4 +1,4 @@
-/** Learning TS for JAvascript Programmers 
+/** Learning TS for Javascript Programmers 
  * TypeScript stands in an unusual relationship to JavaScript.
  * TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system.
  * For example, JavaScript provides language primitives like string and number.
