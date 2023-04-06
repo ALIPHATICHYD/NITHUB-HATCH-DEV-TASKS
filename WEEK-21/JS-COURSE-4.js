@@ -419,9 +419,10 @@ var i = 10;
 
 // Only Change Code Below This Line
 
-while (i < 5 ){
+do {
     myArray.push(i);
     i++;
-}
+} while (i < 5)
 
 console.log(i, myArray);
+
