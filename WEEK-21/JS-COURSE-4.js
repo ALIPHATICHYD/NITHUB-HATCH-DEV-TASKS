@@ -426,3 +426,9 @@ do {
 
 console.log(i, myArray);
 
+ 
+
+/** Profile Lookup
+ *  This is a coding challenge, we have this array of objects in our contact list, and you will see each object is one of our contacts.
+ * With the first name, last name and the likes. 
+ */
