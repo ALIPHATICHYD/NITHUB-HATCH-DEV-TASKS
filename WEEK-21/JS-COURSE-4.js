@@ -474,6 +474,23 @@ function lookUpProfile (name, prop){
     return "No such contact";
 }
 
+// Change these values to test your function.  
 var data = lookUpProfile("ALIPHATIC", "likes");
 
 console.log(data);
+
+
+/** Generate Random Fractions
+ * There is a simple way to create a random decimal number in JavaScript.
+ * It is with the math.random function. 
+ * So when you run the function.
+ * It is always going to be a number between 0.
+ * And it could also be 0.
+ */
+
+function randomFraction(){
+    
+    return Math.random();
+}
+
+console.log(randomFraction());
