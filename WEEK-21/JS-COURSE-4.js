@@ -430,5 +430,35 @@ console.log(i, myArray);
 
 /** Profile Lookup
  *  This is a coding challenge, we have this array of objects in our contact list, and you will see each object is one of our contacts.
- * With the first name, last name and the likes. 
+ * With the first name, last name and the likes. So these are key value pairs in here 👇🏽
  */
+
+var ourContacts = [
+    {
+        "firstName": "ALIPHATIC",
+        "lastName": "HYDROCARBON",
+        "number": "+2347053539948",
+        "likes":["Gaming", "Coding", "Eating"],
+    },
+
+    {
+        "firstName": "ALIROMATIC",
+        "lastName": "HYDROCARBON",
+        "number": "+234906929705",
+        "likes":["Playing", "Eating", "Shopping"],
+    },
+
+    {
+        "firstName": "AROMATIC",
+        "lastName": "HYDROCARBON",
+        "number": "+2349160394220",
+        "likes":["Null", "Null", "Null"],
+    },
+
+    {
+        "firstName": "AROSAUTIC",
+        "lastName": "HYDROCARBON",
+        "number": "+2349157803115",
+        "likes":["Gaming", "SoftLife", "Spending"],
+    }
+];
