@@ -494,3 +494,7 @@ function randomFraction(){
 }
 
 console.log(randomFraction());
+
+
+
+// Continue the course from WEEK-22, JS-COURSE-5
