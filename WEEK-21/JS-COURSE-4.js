@@ -429,8 +429,9 @@ console.log(i, myArray);
  
 
 /** Profile Lookup
- *  This is a coding challenge, we have this array of objects in our contact list, and you will see each object is one of our contacts.
+ * This is a coding challenge, we have this array of objects in our contact list, and you will see each object is one of our contacts.
  * With the first name, last name and the likes. So these are key value pairs in here 👇🏽
+ * So what we want to do is create this lookUpProfile function where we can pas a name.
  */
 
 var ourContacts = [
@@ -462,3 +463,17 @@ var ourContacts = [
         "likes":["Gaming", "SoftLife", "Spending"],
     }
 ];
+
+
+function lookUpProfile (name, prop){
+    for (var i = 0; i < ourContacts.length; i++){
+        if (ourContacts[i].firstName === name){
+            return ourContacts[i][prop] || "No such property";
+        }
+    }
+    return "No such contact";
+}
+
+var data = lookUpProfile("ALIPHATIC", "likes");
+
+console.log(data);
