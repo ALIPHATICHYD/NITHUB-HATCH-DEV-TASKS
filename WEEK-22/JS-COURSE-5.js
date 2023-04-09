@@ -34,3 +34,12 @@ function ourRandomRange(ourMin, ourMax){
 ourRandomRange(1, 9);
 
 // Only change this code below this line.
+
+function randomRange(myMin, myMax){
+
+    return 0;
+}
+
+var myRandom = randomRange(5, 15);
+
+console.log(myRandom);
