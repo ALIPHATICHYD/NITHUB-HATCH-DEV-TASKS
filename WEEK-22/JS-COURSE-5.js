@@ -16,3 +16,21 @@ function randomWholeNum(){
 }
 
 console.log(randomWholeNum());
+
+
+/** Generate Random Whole Numbers Within A Range
+ * You can also generate random whole numbers within a range. 
+ * So look at this function here👇🏽 ourRandomRange.
+ * It takes a minimum number and a maximum number and then just runs through calculation here👇🏽.
+ * So, we have Math.random and we multiply it by the maximum number or minimum number +1.
+ * And we get the floor which is rounding down.
+ * And we add all that to our minimum number. 
+ */
+
+function ourRandomRange(ourMin, ourMax){
+    return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+}
+
+ourRandomRange(1, 9);
+
+// Only change this code below this line.
