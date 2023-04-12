@@ -13,18 +13,20 @@ class Staff {
 
 // Non-teaching and Teaching Staff
 
-class NonTeachingStaff extends Staff {
-    private role: string;
-    constructor(name: string, email: string, role: string){
+
+
+class NonTeachingStaff extends Staff{
+    private roles: string[] = [];
+
+    constructor(name: string, email: string, roles: string[]){
         super(name, email);
-        this.role = role;
+       roles.forEach((role: string) => this.roles.push(role) )
     }
+
 }
 
-class TeachingStaff extends Staff {
-    private subject: string;
-    constructor(name: string, email: string, subject: string){
-        super(name, email);
-        this.subject = subject;
-    }
+class TeachingStaff extends Staff{
+    private faculty: string;
+    private department: string;
+    private courseTaking: string[];
 }
