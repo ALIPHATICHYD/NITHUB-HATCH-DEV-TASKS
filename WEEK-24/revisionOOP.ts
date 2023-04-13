@@ -17,9 +17,15 @@ class Staff {
 
 // Non-teaching and Teaching Staff
 
+class Animal {
+    name: string;
+    constructor(name: string){
+}
+
 
 
 class NonTeachingStaff extends Staff{
+
     private roles: string[] = [];
 
     constructor(name: string, email: string, roles: string[]){
