@@ -21,45 +21,136 @@
  */
 
 
- class Account {
+//  class Account {
+//     private bankName: string;
+//     private owner: string;
+//     private balance: number;
+//     private accountNumber: number;
+
+//     constructor(bankName: string, owner: string, balance: number, accountNumber: number) {
+//         this.bankName = bankName;
+//         this.owner = owner;
+//         this.balance = balance;
+//         this.accountNumber = accountNumber;
+//     }
+
+//     getBankName() {
+//         return this.bankName;
+//     }
+
+//     getOwner() {
+//         return this.owner;
+//     }
+
+//     getBalance() {
+//         return this.balance;
+//     }
+
+//     getAccountNumber() {
+//         return this.accountNumber;
+//     }
+
+//     deposit(amount: number) {
+//         this.balance += amount;
+//     }
+
+//     withdraw(amount: number) {
+//         this.balance -= amount;
+//     }
+
+//     transfer(amount: number, account: Account) {
+//         this.withdraw(amount);
+//         account.deposit(amount);
+//     }
+// }
+
+
+
+class Account {
     private bankName: string;
     private owner: string;
     private balance: number;
-    private accountNumber: number;
-
-    constructor(bankName: string, owner: string, balance: number, accountNumber: number) {
-        this.bankName = bankName;
-        this.owner = owner;
-        this.balance = balance;
-        this.accountNumber = accountNumber;
+    private accountNumber: string;
+  
+    constructor(bankName: string, owner: string, balance: number, accountNumber: string) {
+      this.bankName = bankName;
+      this.owner = owner;
+      this.balance = balance;
+      this.accountNumber = accountNumber;
     }
-
-    getBankName() {
-        return this.bankName;
+  
+    public getBankName(): string {
+      return this.bankName;
     }
-
-    getOwner() {
-        return this.owner;
+  
+    public getOwner(): string {
+      return this.owner;
     }
-
-    getBalance() {
-        return this.balance;
+  
+    public getBalance(): number {
+      return this.balance;
     }
-
-    getAccountNumber() {
-        return this.accountNumber;
+  
+    public getAccountNumber(): string {
+      return this.accountNumber;
     }
-
-    deposit(amount: number) {
-        this.balance += amount;
+  
+    public deposit(amount: number): void {
+      if (amount <= 0) {
+        throw new Error('Amount must be greater than zero');
+      }
+  
+      this.balance += amount;
     }
-
-    withdraw(amount: number) {
-        this.balance -= amount;
+  
+    public withdraw(amount: number): void {
+      if (amount <= 0) {
+        throw new Error('Amount must be greater than zero');
+      }
+  
+      if (amount > this.balance) {
+        throw new Error('Insufficient balance');
+      }
+  
+      this.balance -= amount;
     }
-
-    transfer(amount: number, account: Account) {
-        this.withdraw(amount);
-        account.deposit(amount);
+  
+    public transfer(amount: number, targetAccount: Account): void {
+      if (amount <= 0) {
+        throw new Error('Amount must be greater than zero');
+      }
+  
+      if (amount > this.balance) {
+        throw new Error('Insufficient balance');
+      }
+  
+      this.withdraw(amount);
+      targetAccount.deposit(amount);
     }
-}
+  }
+
+
+// Usage example
+const account1 = new Account('Bank A', 'Gwen', 1000, '100000000');
+const account2 = new Account('Bank B', 'KANIF', 500, '200000000');
+
+console.log(account1.getBalance()); // Output: 1000
+console.log(account2.getBalance()); // Output: 500
+
+account1.deposit(500);
+console.log(account1.getBalance()); // Output: 1500
+
+account1.withdraw(200);
+console.log(account1.getBalance()); // Output: 1300
+
+account1.transfer(1000, account2);
+console.log(account1.getBalance()); // Output: 300
+console.log(account2.getBalance()); // Output: 1500
+
+
+/** In this implementation, the Account class has private properties for bankName, owner, balance, and accountNumber. 
+ * Getters are also implemented for each property to allow access to them without exposing them publicly. 
+ * The deposit, withdraw, and transfer methods are also implemented, with appropriate error handling for invalid inputs or insufficient balance.
+ * An example usage of this Account class is also shown.
+ * With two accounts being created, and transactions being made between them using the deposit, withdraw, and transfer methods.
+ */
