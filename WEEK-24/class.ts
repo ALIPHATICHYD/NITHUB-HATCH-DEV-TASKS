@@ -49,5 +49,9 @@ A static method can only access static properties
 
 const sqr = new Shapes("square");
 
-
+/** what is Hoisting in Javascript
+ Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution. Inevitably, this means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.
+Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+ JavaScript only hoists declarations, not initializations.
+ */
 
