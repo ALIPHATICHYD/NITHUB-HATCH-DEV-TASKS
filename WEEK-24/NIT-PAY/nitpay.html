@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nitpay.scss">
+    <title>NITPAY</title>
+</head>
+<body>
+    <button onclick="createAccount()">Create Account</button>
+
+
+    <form onsubmit="createAccount(event)">
+        <label for="bankName">Bank Name:</label>
+        <input type="text" id="bankName" name="bankName"><br><br>
+        
+        <label for="owner">Owner:</label>
+        <input type="text" id="owner" name="owner"><br><br>
+        
+        <label for="balance">Balance:</label>
+        <input type="number" id="balance" name="balance"><br><br>
+        
+        <label for="accountNumber">Account Number:</label>
+        <input type="text" id="accountNumber" name="accountNumber"><br><br>
+        
+        <input type="submit" value="Create Account">
+      </form>
+      
+
+<script src="nitpay.js"></script>
+</body>
+</html>
