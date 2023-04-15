@@ -50,26 +50,27 @@ A static method can only access static properties
 const sqr = new Shapes("square");
 
 
-// Create a Bank System using OOP
-// This bank system has Account for Users
-// Simulate these operations using class methods and properties
-// 1. Depositing into the bank
-// 2. Withdrawing from the account
-// 3. Transferring to another bank [Assignment]
+ /** Using Typescript Create a Bank System using OOP
+ This bank system has Account for Users
+ Simulate these operations using class methods and properties
+ 1. Depositing into the bank
+ 2. Withdrawing from the account
+ 3. Transferring to another bank 
+ 
+ The Account class for the user should contain properties such as 
+ 1. Bank name
+ 2. The owner
+ 3. Balance
+ 4. Account Number
 
-// The Account class for the user should contain properties such as 
-// 1. Bank name
-// 2. The owner
-// 3. Balance
-// 4. Account Number
+ Implement methods such as 
+ 1. Deposit
+ 2. Withdraw
+ 3. Transfer[Assignment]
 
-// Implement methods such as 
-// 1. Deposit
-// 2. Withdraw
-// 3. Transfer[Assignment]
-
-// make the properties of the account class private and assign getters to each of them 
-// feel free to add any other thing you think
+ Make the properties of the account class private and assign getters to each of them 
+ Feel free to add any other thing you think
+ */
 
 
 
