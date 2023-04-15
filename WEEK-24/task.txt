@@ -1,4 +1,4 @@
-Create a Bank System using OOp
+Create a Bank System using OOP
 This bank system has Account for Users
 Simulate these operations using class methods and properties
 1. Depositing into the bank
