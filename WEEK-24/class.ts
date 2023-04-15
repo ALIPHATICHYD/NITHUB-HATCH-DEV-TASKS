@@ -50,7 +50,7 @@ A static method can only access static properties
 const sqr = new Shapes("square");
 
 
-// Create a Bank System using OOp
+// Create a Bank System using OOP
 // This bank system has Account for Users
 // Simulate these operations using class methods and properties
 // 1. Depositing into the bank
@@ -68,7 +68,8 @@ const sqr = new Shapes("square");
 // 2. Withdraw
 // 3. Transfer[Assignment]
 
-// make aa properties of the account class private and assign getters to each of them 
+// make the properties of the account class private and assign getters to each of them 
 // feel free to add any other thing you think
+
 
 
