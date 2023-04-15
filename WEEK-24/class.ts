@@ -69,4 +69,6 @@ const sqr = new Shapes("square");
 // 3. Transfer[Assignment]
 
 // make aa properties of the account class private and assign getters to each of them 
-// feel free to add any 
+// feel free to add any other thing you think
+
+

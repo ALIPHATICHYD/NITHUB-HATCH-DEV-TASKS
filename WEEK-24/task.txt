@@ -17,4 +17,4 @@ Implement methods such as
 3. Transfer[Assignment]
 
 Make the properties of the account class private and assign getters to each of them 
-Feel free to add any implementations.
+Feel free to add any other thing you think.
