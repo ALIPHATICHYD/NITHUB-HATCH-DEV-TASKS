@@ -14,55 +14,12 @@
  Implement methods such as 
  1. Deposit
  2. Withdraw
- 3. Transfer[Assignment]
+ 3. Transfer
 
  Make the properties of the account class private and assign getters to each of them 
  Feel free to add any other thing you think
  */
 
-
-//  class Account {
-//     private bankName: string;
-//     private owner: string;
-//     private balance: number;
-//     private accountNumber: number;
-
-//     constructor(bankName: string, owner: string, balance: number, accountNumber: number) {
-//         this.bankName = bankName;
-//         this.owner = owner;
-//         this.balance = balance;
-//         this.accountNumber = accountNumber;
-//     }
-
-//     getBankName() {
-//         return this.bankName;
-//     }
-
-//     getOwner() {
-//         return this.owner;
-//     }
-
-//     getBalance() {
-//         return this.balance;
-//     }
-
-//     getAccountNumber() {
-//         return this.accountNumber;
-//     }
-
-//     deposit(amount: number) {
-//         this.balance += amount;
-//     }
-
-//     withdraw(amount: number) {
-//         this.balance -= amount;
-//     }
-
-//     transfer(amount: number, account: Account) {
-//         this.withdraw(amount);
-//         account.deposit(amount);
-//     }
-// }
 
 
 
