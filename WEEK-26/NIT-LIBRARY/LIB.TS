@@ -33,8 +33,25 @@ class Librarian {
     }
 }
 
+type Category = "ENGINEERING" | "SCIENCE" | "ARTS" | "SOCIAL SCIENCE" | "MANAGEMENT SCIENCE" | "ENVIRONMENTAL SCIENCE" | "MASS COMMUNCATION" | "LAW" | "WORKS & PLANNING";
 
+class Books {
+    private name: string;
+    private authors: string;
+    private quantity: string;
+    private category: Category;
+    private datePublished: Date;
 
+    constructor(name: string, authors: string, quantity: string, catrgory: Category, datePublished: Date){
+        this.name = name;
+        this.authors = authors;
+        this.quantity = quantity;
+        this.category = catrgory;
+        this.datePublished = datePublished;
+
+    }
+    
+}
 
 
 
