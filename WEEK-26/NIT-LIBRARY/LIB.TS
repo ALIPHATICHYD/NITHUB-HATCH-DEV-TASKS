@@ -4,7 +4,7 @@
  */ 
 
 
-
+// LIBRARIAN FEATURES
 type Gender = "MALE" | "FEMALE";
 
 class Librarian {
@@ -33,6 +33,8 @@ class Librarian {
     }
 }
 
+
+// BOOKS FEATURE
 type Category = "ENGINEERING" | "SCIENCE" | "ARTS" | "SOCIAL SCIENCE" | "MANAGEMENT SCIENCE" | "ENVIRONMENTAL SCIENCE" | "MASS COMMUNCATION" | "LAW" | "WORKS & PLANNING";
 
 class Books {
@@ -54,7 +56,37 @@ class Books {
 }
 
 
+// AUTHORS FEATURE
+type Genders = "MALE" | "FEMALE";
 
+class Authors {
+    private firstName: string;
+    private lastName: string;
+    private email: string;
+    private gender: Genders;
+    private phoneNum: string;
+
+    constructor(firstName: string, lastName: string, email: string, gender: Genders, phoneNum: string){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.gender = gender;
+        this.phoneNum = phoneNum;
+    }
+
+
+    get fullName(): string{
+        if(this.gender === "MALE"){
+            return `Mr. ${this.firstName} - ${this.lastName}`;
+        }else{
+            return `Mrs. ${this.firstName} - ${this.lastName}`;
+        }
+      
+    }
+}
+
+
+// LIBRARY FEATURES
 class Library {
     private name: string;
     private books: Array<string>; //TODO
