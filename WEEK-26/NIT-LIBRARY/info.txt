@@ -22,3 +22,37 @@ AUTHORS
     - lAST nAME
     - eMAIL
     - pHONE nUMBER 
+
+
+
+1. Library:
+
+Name: The library has a name, which is used as a unique identifier for the library system.
+
+Librarians: The library has librarians who are responsible for managing the library, including tasks such as cataloging books, assisting patrons, and maintaining the library's resources.
+
+2. Books:
+
+Name: Each book in the library has a name, which serves as its unique identifier.
+
+Authors: Each book is associated with one or more authors, who are responsible for writing the book. Author information includes their first name, last name, email, and phone number.
+
+Quantity: The library keeps track of the quantity of each book in its collection, indicating how many copies of a particular book are available.
+
+Category: Each book belongs to a specific category or genre, such as fiction, non-fiction, mystery, romance, etc. This helps in organizing and categorizing books for easy retrieval.
+
+Date Published: The library also keeps track of the date when each book was published, which is important for tracking the age and relevance of the books in the collection.
+
+3.  Authors:
+
+First Name: Each author has a first name, which is their given name.
+
+Last Name: Each author has a last name, which is their surname or family name.
+
+Email: Authors have an email address associated with them, which can be used for communication or contact purposes.
+
+Phone Number: Authors also have a phone number associated with them, which can be used for communication or contact purposes.
+
+In summary, the library system consists of a library with a name and librarians, books with names, authors, quantities, categories, and publication dates, and authors with first names, last names, email addresses, and phone numbers. This organized system helps in managing and maintaining the library's collection efficiently, facilitating easy access to books and information related to authors.
+
+
