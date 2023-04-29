@@ -1,4 +1,8 @@
-// LIBRARY SYSTEM
+/** LIBRARY SYSTEM
+ ** Implement the Book feature
+ ** Implement the Author feature 
+ */ 
+
 
 
 type Gender = "MALE" | "FEMALE";
@@ -94,7 +98,7 @@ const librarians = mainLib.assignLibrarian(olaide);
 mainLib.assignLibrarian(gwen);
 mainLib.assignLibrarian(hanif);
 mainLib.assignLibrarian(olaide);
-console.log(mainLib)
+console.log(mainLib);
 
 mainLib.addBook("Singles don't do that");
 console.log(mainLib)
