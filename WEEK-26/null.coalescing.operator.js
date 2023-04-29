@@ -1,4 +1,4 @@
-let first = null;
-let second = "two"
+let first = "one";
+let second = null;
 let result = first ?? second
 console.log(result)
