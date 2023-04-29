@@ -83,7 +83,12 @@ class Authors {
         }
       
     }
-}
+
+
+//     addAuthor(name: string){
+//         this.firstName.push(name)
+//     }
+// }
 
 
 // LIBRARY FEATURES
