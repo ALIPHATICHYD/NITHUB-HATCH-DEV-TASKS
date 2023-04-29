@@ -18,6 +18,14 @@ class Library {
 
     }
 
+    addBooks(){
+
+    }
+
+    addBook(name: string){
+        this.books.push(name)
+    }
+
     get libraryName(): string{
         return this.name;
     }
@@ -36,4 +44,12 @@ class Library {
 
 
 const mainLib = new Library("Main");
-console.log()mainLib;
+const librarians = mainLib.assignLibrarian("Olaide");
+// console.log(mainLib);
+mainLib.assignLibrarian("Jesus");
+mainLib.assignLibrarian("Hanif");
+mainLib.assignLibrarian("Olaide");
+console.log(mainLib)
+
+mainLib.addBook("Singles don't do that");
+console.log(mainLib)
