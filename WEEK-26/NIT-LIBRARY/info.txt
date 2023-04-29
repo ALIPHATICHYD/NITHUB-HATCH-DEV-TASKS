@@ -1,0 +1,24 @@
+Designing A Library System
+
+LIBRARY 
+  * FEATURES
+    - nAME
+    - bOOKS
+    - lIBRARIANS
+
+
+BOOKS
+  * FEATURES
+    - nAME
+    - aUTHORS
+    - qUANTITY
+    - cATEGORY
+    - dATE pUBLISHED
+
+
+AUTHORS 
+  * FEATURES
+    - fIRST nAME
+    - lAST nAME
+    - eMAIL
+    - pHONE nUMBER 
