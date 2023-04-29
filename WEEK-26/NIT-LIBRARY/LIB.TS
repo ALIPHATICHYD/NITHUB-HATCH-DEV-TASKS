@@ -37,7 +37,7 @@ class Librarian {
 class Library {
     private name: string;
     private books: Array<string>; //TODO
-    private librarians: string[]; //TODO
+    private librarians: Librarian []; //TODO
 
     constructor(name: string){
         this.name = name;
@@ -47,7 +47,7 @@ class Library {
 
 
     // TODO
-    assignLibrarian(librarian: string){
+    assignLibrarian(librarian: Librarian){
         this.librarians.push(librarian);
         return this.librarians;
 
@@ -80,11 +80,20 @@ class Library {
 
 
 const mainLib = new Library("Main");
-const librarians = mainLib.assignLibrarian("Olaide");
+
+const olaide = new Librarian('olaide', 'ojuolape', 'ojuolapeolaide92@gmail.com', "FEMALE", "+23429299269");
+const hanif = new Librarian('hanif', 'kanif ', 'hanif@gmail.com', "MALE", "+23429299269");
+const gwen = new Librarian('gwen', 'ochayan', 'gwen@gmail.com', "FEMALE", "+23429299269");
+const olympia = new Librarian('olympia', 'the great', 'olympia@gmail.com', "FEMALE", "+23429299269");
+
+
+
+
+const librarians = mainLib.assignLibrarian(olaide);
 // console.log(mainLib);
-mainLib.assignLibrarian("Jesus");
-mainLib.assignLibrarian("Hanif");
-mainLib.assignLibrarian("Olaide");
+mainLib.assignLibrarian(gwen);
+mainLib.assignLibrarian(hanif);
+mainLib.assignLibrarian(olaide);
 console.log(mainLib)
 
 mainLib.addBook("Singles don't do that");
