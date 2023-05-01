@@ -4,3 +4,4 @@ A Repository showing;
 * Documentation of HTML Course and Roadmap🛣️
 * Documentation of Tailwind CSS and a Project🛠️
 * Documentation of Javascript Course📝
+* Documentation of The TypeScript Course🔑
