@@ -14,3 +14,38 @@
 * Intersection Types: Represents a type that has properties and methods from multiple types.
 * Type Aliases: Allows you to create a new name for a type.
  */
+
+
+// String 
+let Name: string = "John Doe";
+
+// Number 
+let age: number = 25;
+
+// Boolean
+let isEmployed: boolean = true;
+
+
+// Any
+
+
+// Void
+
+// Null
+
+// Undefined
+
+// Object
+
+// Array<T>
+
+// Tuple
+
+// Enum
+
+// Union Types 
+
+// Intersection Types 
+
+// Type Aliases
+
