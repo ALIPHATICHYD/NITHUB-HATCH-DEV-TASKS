@@ -21,9 +21,9 @@ interface Library {
 
 // Example usage
 const author1: Author = {
-  firstName: "John",
-  lastName: "Doe",
-  email: "johndoe@example.com",
+  firstName: "AROSAUTIC",
+  lastName: "HYDROCARBON",
+  email: "arosautic@hydrocarbon.com",
   phoneNumber: "555-555-5555",
 };
 
@@ -32,13 +32,13 @@ const book1: Book = {
   authors: [author1],
   quantity: 5,
   category: "Fiction",
-  datePublished: new Date("1925-04-10"),
+  datePublished: new Date("2023-04-10"),
 };
 
 const library1: Library = {
   name: "Central Library",
   books: [book1],
-  librarians: ["Jane Smith", "Bob Johnson"],
+  librarians: ["ALIPHATIC", "AROMATIC"],
 };
 
 
@@ -48,5 +48,6 @@ const library1: Library = {
 * A Book has a name, one or more authors, a quantity, a category, and a date published.
 * Note that the authors property is an array of Author objects, as a book can have multiple authors.
 * A Library has a name, an array of books, and an array of librarian names.
-* Finally, we have created an example usage where we define an Author, a Book, and a Library object. Note that we are using the Date object for the datePublished property of the Book interface.
+* Finally, we have created an example usage where we define an Author, a Book, and a Library object.
+* Note that we are using the Date object for the datePublished property of the Book interface.
  */
