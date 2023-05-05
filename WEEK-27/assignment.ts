@@ -27,25 +27,60 @@ let isEmployed: boolean = true;
 
 
 // Any
+let data: any = "some value";
+data = 10;
+data = false;
 
 
 // Void
+function printMessage(message: string): void {
+  console.log(message);
+}
 
 // Null
+let foo: null = null;
 
 // Undefined
+let bar: undefined = undefined;
 
 // Object
+let user: object = { name: "John", age: 25 };
 
 // Array<T>
+let numbers: number[] = [1, 2, 3, 4, 5];
+let names: string[] = ["John", "Mary", "Bob"];
 
 // Tuple
+let person: [string, number] = ["John", 25];
 
 // Enum
+enum Color {
+  Red,
+  Green,
+  Blue,
+}
 
-// Union Types 
+let selectedColor: Color = Color.Red;
 
-// Intersection Types 
+// Union Types
+let value: string | number = "Hello";
+value = 10;
+
+// Intersection Types
+interface User {
+  name: string;
+}
+
+interface Employee {
+  id: number;
+}
+
+type Admin = User & Employee;
+
+let admin: Admin = { name: "John", id: 1 };
 
 // Type Aliases
+type Age = number;
+let year: Age = 25;
+
 
