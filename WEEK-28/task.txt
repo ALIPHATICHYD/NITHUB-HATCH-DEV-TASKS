@@ -1,0 +1,15 @@
+Suppose you are designing an online shopping cart system. The system should allow users to add items to their cart, remove items from their cart, and view the total cost of the items in their cart. I have identified the following classes: Item, ShoppingCart, and User.
+
+Define the Item class. This class should have attributes for the item's name, price, and quantity.
+
+Define the ShoppingCart class. This class should have an *attribute for the user who owns the cart, as well as a list of items that have been added to the cart. The class should have methods for adding an item to the cart, removing an item from the cart, and calculating the total cost of the items in the cart.
+
+Define the User class. This class should have attributes for the user's name, email, and password. The class should have methods for registering a new user and logging in to an existing user.
+
+Implement the ShoppingCart class's calculate_total_cost method. This method should iterate over the list of items in the cart and calculate the total cost of all the items.
+
+Implement the ShoppingCart class's remove_item method. This method should take an Item object as a parameter and remove that item from the cart's list of items.
+
+Implement the User class's register method. This method should take a username, email, and password as parameters and create a new User object with those attributes.
+
+Implement the User class's login method. This method should take a username and password as parameters and check if the user with that username and password exists. If the user exists, the method should return the user's User object. If the user does not exist or the password is incorrect, the method should raise an error.
