@@ -42,3 +42,12 @@ class Item {
     }
   }
   
+
+/**
+ * Note that in this implementation, the User class has a static users property that holds an array of all registered users.
+ *  The register method creates a new User object and adds it to this array. 
+ * The login method searches for a user in the array based on the provided username and password. 
+ * If a user is found, it is returned; otherwise, an error is thrown.
+ * Also note that the addItem and removeItem methods in the ShoppingCart class modify the items array directly.
+ *  It would be possible to implement these methods in a more functional way using concat and filter, respectively, but the current implementation should be more efficient for larger arrays.
+ */
