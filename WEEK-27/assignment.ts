@@ -82,5 +82,3 @@ let admin: Admin = { name: "John", id: 1 };
 // Type Aliases
 type Age = number;
 let year: Age = 25;
-
-
