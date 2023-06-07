@@ -251,3 +251,7 @@ This project is licensed under the terms of the [MIT license](/LICENSE).
 Using Abstract Syntax Trees (ASTs) with TypeScript and NestJS can be a powerful approach to analyze, manipulate, and generate code. Here are some steps to leverage ASTs in your TypeScript and NestJS projects:
 
 Install Required Packages: Start by installing the necessary packages. The primary package you'll need is ts-migrate-parser, which provides AST-related utilities for TypeScript code. You can install it using npm or yarn:
+
+```
+npm install ts-migrate-parser
+```
