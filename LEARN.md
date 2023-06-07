@@ -267,3 +267,15 @@ const code = `
 
 const ast = parse(code);
 ```
+
+3. Traverse and Analyze the AST: Once you have the AST representation, you can traverse and analyze it to extract relevant information or perform transformations. You can use popular AST traversal libraries like ts-migrate-traverse to traverse the AST nodes and apply transformations as needed. Here's an example of traversing the AST and extracting class declarations:
+
+```
+import { visitNode } from 'ts-migrate-traverse';
+import { SyntaxKind } from 'ts-migrate-parser';
+
+visitNode(ast, SyntaxKind.ClassDeclaration, (node) => {
+  // Perform analysis or transformations on the class declarations
+  console.log(node.name?.text);
+});
+```
