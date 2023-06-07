@@ -287,3 +287,9 @@ import { generateCode } from 'ts-migrate-codegen';
 
 const modifiedCode = generateCode(ast);
 ```
+
+5. Integrate with NestJS: In the context of NestJS, you can use ASTs to analyze and modify your NestJS codebase. For example, you can use ASTs to automatically generate routing information, perform code refactorings, or enforce coding conventions. You can combine AST traversal and code generation techniques with NestJS decorators and metadata to achieve these tasks.
+
+Remember that working with ASTs requires a good understanding of the TypeScript compiler API and the specific structures of NestJS. It's recommended to refer to the TypeScript documentation, NestJS documentation, and the documentation of the AST-related packages for detailed usage instructions and examples.
+
+By leveraging Abstract Syntax Trees in your TypeScript and NestJS projects, you can gain more flexibility and control over your code analysis and generation processes, enabling advanced code manipulation and automation.
