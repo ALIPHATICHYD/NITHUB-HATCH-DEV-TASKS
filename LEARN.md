@@ -279,3 +279,11 @@ visitNode(ast, SyntaxKind.ClassDeclaration, (node) => {
   console.log(node.name?.text);
 });
 ```
+
+4. Generate Code from AST: You can also generate TypeScript code from the modified AST using code generation utilities. The ts-migrate-codegen package provides tools for generating TypeScript code from the AST. Here's an example of generating code from an AST:
+
+```
+import { generateCode } from 'ts-migrate-codegen';
+
+const modifiedCode = generateCode(ast);
+```
