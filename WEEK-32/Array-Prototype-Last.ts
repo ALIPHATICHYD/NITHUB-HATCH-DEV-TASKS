@@ -31,9 +31,21 @@ declare global {
     }
 }
 
-Array.prototype.last = function() {
+// Array.prototype.last = function() {
+//     let last: number = -1;
+//     for (let i = 0, i <= this.length-1; i++){
+//         if (i === this.length){
+//             last = this[i]
+//         }
+//     } 
+//     return last;
+// };
 
-};
+//OR
+
+Array.prototype.last = function() {
+    return this.length ? this[this.length -1] : -1
+}
 
 /**
  * const arr = [1, 2, 3];
@@ -41,3 +53,5 @@ Array.prototype.last = function() {
  */
 
 export {};
+
+
