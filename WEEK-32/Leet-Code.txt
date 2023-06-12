@@ -1,3 +1,7 @@
-Leet Code Problems & Solutions 
+Leet Code Problems & Solutions:
 
 LeetCode is a popular online platform that offers a wide range of coding problems to help programmers improve their skills and prepare for technical interviews. It provides a collection of algorithmic and data structure problems categorized by difficulty level. LeetCode Problems & Solutions is a comprehensive resource that provides solutions to these problems, guiding programmers through the process of solving them efficiently. Whether you're a beginner or an experienced coder, this resource offers detailed explanations, code implementations, and optimization techniques to help you tackle LeetCode problems effectively. By practicing with LeetCode Problems & Solutions, you can enhance your problem-solving abilities, algorithmic thinking, and coding proficiency.
+
+DSA Problems & Solutions:
+
+DSA (Data Structures and Algorithms) is a fundamental topic in computer science and programming. It forms the basis for efficient problem-solving and software development. DSA Problems & Solutions is a valuable resource that offers a wide range of problems related to data structures and algorithms. This resource covers various concepts, including arrays, linked lists, stacks, queues, trees, graphs, sorting algorithms, searching algorithms, and more. Each problem is accompanied by detailed explanations, step-by-step solutions, and code implementations in various programming languages. By practicing with DSA Problems & Solutions, you can strengthen your understanding of data structures, algorithms, and their practical implementations, ultimately improving your ability to solve complex programming problems.
