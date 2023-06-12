@@ -1,4 +1,4 @@
-/** Explaning TypeScript Types
+/** Explaining TypeScript Types
 * string: Represents a string value.
 * number: Represents a numeric value.
 * boolean: Represents a boolean value (true or false).
