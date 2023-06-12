@@ -1,3 +1,3 @@
 Leet Code Problems & Solutions 
 
-DSA Problems & Solutions
+LeetCode is a popular online platform that offers a wide range of coding problems to help programmers improve their skills and prepare for technical interviews. It provides a collection of algorithmic and data structure problems categorized by difficulty level. LeetCode Problems & Solutions is a comprehensive resource that provides solutions to these problems, guiding programmers through the process of solving them efficiently. Whether you're a beginner or an experienced coder, this resource offers detailed explanations, code implementations, and optimization techniques to help you tackle LeetCode problems effectively. By practicing with LeetCode Problems & Solutions, you can enhance your problem-solving abilities, algorithmic thinking, and coding proficiency.
