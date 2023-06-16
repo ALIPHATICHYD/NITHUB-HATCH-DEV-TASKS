@@ -39,3 +39,9 @@
  * 0 <= digits[i] <= 9
  * digits does not contain any leading 0's.
  */
+
+
+function plusOne(digits: number[]): number[] {
+
+
+};
