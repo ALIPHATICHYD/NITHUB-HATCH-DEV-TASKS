@@ -68,3 +68,9 @@ console.log(plusOne([1, 9, 9, 9]));
 console.log(plusOne([1, 9, 9, 8]));
 
 console.log(plusOne([1, 9, 9, 0]));
+
+console.log(plusOne([1, 9, 9, 1]));
+
+console.log(plusOne([1, 9, 9, 2]));
+
+console.log(plusOne([1, 9, 9, 3]));
