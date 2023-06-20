@@ -37,3 +37,18 @@ class DynamicArray {
         }
         this.arr[i] = val;
     }
+
+    public getSize() {
+        return this.size;
+    }
+    public getCapacity() {
+        return this.capacity;
+    }
+    private copyArray(arr: number[], capacity: number) {
+        const newArr = [];
+        for (let i = 0; i < capacity; i++) {
+            newArr[i] = arr[i];
+        }
+        return newArr;
+    }
+}
