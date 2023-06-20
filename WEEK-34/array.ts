@@ -24,3 +24,16 @@ class DynamicArray {
         }
         this.arr[this.size++] = val;
     }
+
+    public get(i: number) {
+        if (i < 0 || i >= this.size) {
+            throw new Error('Index out of bounds');
+        }
+        return this.arr[i];
+    }
+    public set(i: number, val: number) {
+        if (i < 0 || i >= this.size) {
+            throw new Error('Index out of bounds');
+        }
+        this.arr[i] = val;
+    }
