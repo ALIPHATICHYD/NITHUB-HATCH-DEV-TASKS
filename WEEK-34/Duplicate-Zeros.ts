@@ -34,3 +34,31 @@ The main problem with not using additional memory is that we might override elem
 Hint 4  
 If we had enough space available, we would be able to accommodate all the elements properly. The new length would be the original length of the array plus the number of zeros. Can we use this information somehow to solve the problem?
 */
+
+/**
+ Do not return anything, modify arr in-place instead.
+ */
+ 
+function duplicateZeros(arr: number[]): void {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 0) count++;
+    }
+    let index = arr.length + count - 1;
+    for (let i = arr.length - 1; i >= 0; i--) {
+        if (arr[i] === 0) {
+            if (index < arr.length) {
+                arr[index] = 0;
+            }
+            index--;
+            if (index < arr.length) {
+                arr[index] = 0;
+            }
+        } else {
+            if (index < arr.length) {
+                arr[index] = arr[i];
+            }
+        }
+        index--;
+    }
+};
