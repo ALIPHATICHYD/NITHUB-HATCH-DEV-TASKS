@@ -50,8 +50,17 @@ We need to modify the array in-place and the size of the final array would poten
 
 Hint 3  
 Essentially, once an element is encountered, you simply need to bypass its duplicates and move on to the next unique element.
-
 */
 
 
+function removeDuplicates(nums: number[]): number {
+    let i = 0;
+    for (let j = 1; j < nums.length; j++) {
+        if (nums[j] != nums[i]) {
+            i++;
+            nums[i] = nums[j];
+        }
+    }
+    return i + 1;
 
+};
