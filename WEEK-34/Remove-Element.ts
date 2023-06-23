@@ -55,3 +55,17 @@ We can move all the occurrences of this element to the end of the array. Use two
 Hint 3  
 Yet another direction of thought is to consider the elements to be removed as non-existent. In a single pass, if we keep copying the visible elements in-place, that should also solve this problem for us.
  */
+
+
+function removeElement(nums: number[], val: number): number {
+    let i = 0;
+    let j = 0;
+    while (j < nums.length) {
+        if (nums[j] !== val) {
+            nums[i++] = nums[j++];
+        } else {
+            j++;
+        }
+    }
+    return i;
+};
