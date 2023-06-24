@@ -49,3 +49,27 @@ Constraints:
 1 <= words[i].length <= 50
 Each character in words[i] is an English lowercase letter
  */
+
+function minimizeConcatenatedLength(words: string[]): number {
+    let result = 0;
+    words.sort((a, b) => b.length - a.length);
+    for (let i = 0; i < words.length; i++) {
+        let word = words[i];
+        let j = i + 1;
+        while (j < words.length) {
+            let nextWord = words[j];
+            if (word.endsWith(nextWord)) {
+                words.splice(j, 1);
+            } else if (nextWord.endsWith(word)) {
+                words.splice(i, 1);
+                word = nextWord;
+                j = i + 1;
+            } else {
+                j++;
+            }
+        }
+        result += word.length;
+    }
+    return result;
+
+};
