@@ -30,3 +30,16 @@ Loop from i = 0 to arr.length, maintaining in a hashTable the array elements fro
 Hint 2  
 On each step of the loop check if we have seen the element 2 * arr[i] so far or arr[i] / 2 was seen if arr[i] % 2 == 0.
 */
+
+function checkIfExist(arr: number[]): boolean {
+    let hashTable = {};
+    for (let i = 0; i < arr.length; i++) {
+        let current = arr[i];
+        if (hashTable[current * 2] || (current % 2 === 0 && hashTable[current / 2])) {
+            return true;
+        }
+        hashTable[current] = true;
+    }
+    return false;
+
+};
