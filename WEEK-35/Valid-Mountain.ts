@@ -38,3 +38,21 @@ Constraints:
 Hint 1  
 It's very easy to keep track of a monotonically increasing or decreasing ordering of elements. You just need to be able to determine the start of the valley in the mountain and from that point onwards, it should be a valley i.e. no mini-hills after that. Use this information in regards to the values in the array and you will be able to come up with a straightforward solution.
  */
+
+function validMountainArray(arr: number[]): boolean {
+    if (arr.length < 3) {
+        return false;
+    }
+    let i = 0;
+    while (i < arr.length - 1 && arr[i] < arr[i + 1]) {
+        i++;
+    }
+    if (i === 0 || i === arr.length - 1) {
+        return false;
+    }
+    while (i < arr.length - 1 && arr[i] > arr[i + 1]) {
+        i++;
+    }
+    return i === arr.length - 1;
+
+};
