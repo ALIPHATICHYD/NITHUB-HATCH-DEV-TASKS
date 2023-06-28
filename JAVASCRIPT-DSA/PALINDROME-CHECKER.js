@@ -26,3 +26,9 @@ palindrome("1 eye for of 1 eye.") should return false.
 palindrome("0_0 (: /-\ :) 0-0") should return true.
 palindrome("five|\_/|four") should return false.      
  */
+
+function palindrome(str) {
+    return true;
+  }
+  
+  palindrome("eye");
