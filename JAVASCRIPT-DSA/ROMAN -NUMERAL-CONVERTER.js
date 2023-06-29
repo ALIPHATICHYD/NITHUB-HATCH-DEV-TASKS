@@ -45,3 +45,9 @@ convertToRoman(1004) should return the string MIV
 convertToRoman(1006) should return the string MVI
 convertToRoman(1023) should return the string MXXIII
 */
+
+function convertToRoman(num) {
+    return num;
+   }
+   
+   convertToRoman(36);
