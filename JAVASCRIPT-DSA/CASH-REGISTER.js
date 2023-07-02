@@ -54,8 +54,36 @@ checkCashRegister(19.5, 20, [["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUART
 */
 
 function checkCashRegister(price, cash, cid) {
-    let change;
-    return change;
+    let change = cash - price;
+    let totalCid = cid.reduce((acc, curr) => {
+      return acc + curr[1];
+    }, 0);
+    if (totalCid === change) {
+      return { status: "CLOSED", change: cid };
+    }
+    if (totalCid < change) {
+      return { status: "INSUFFICIENT_FUNDS", change: [] };
+    }
+    cid = cid.reverse();
+    let result = denominations.reduce((acc, curr, index) => {
+      if (change >= curr.value) {
+        let currentValue = 0;
+        while (change >= curr.value && cid[index][1] >= curr.value) {
+          currentValue += curr.value;
+          change -= curr.value;
+          change = Math.round(change * 100) / 100;
+          cid[index][1] -= curr.value;
+        }
+        acc.push([curr.name, currentValue]);
+        return acc;
+      } else {
+        return acc;
+      }
+    }, []);
+    if (result.length < 1 || change > 0) {
+      return { status: "INSUFFICIENT_FUNDS", change: [] };
+    }
+    return { status: "OPEN", change: result};
   }
   
   checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
