@@ -16,7 +16,22 @@ rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.") should decode to the strin
 */
 
 function rot13(str) {
+    let newStr = "";
+    for (let i = 0; i < str.length; i++) {
+      let charCode = str.charCodeAt(i);
+      if (charCode >= 65 && charCode <= 90) {
+        if (charCode + 13 > 90) {
+          newStr += String.fromCharCode(charCode - 13);
+        } else {
+          newStr += String.fromCharCode(charCode + 13);
+        }
+      } else {
+        newStr += str[i];
+      }
+    }
+    str = newStr;
     return str;
+    
   }
   
   rot13("SERR PBQR PNZC");
