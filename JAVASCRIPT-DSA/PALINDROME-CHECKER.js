@@ -28,6 +28,13 @@ palindrome("five|\_/|four") should return false.
  */
 
 function palindrome(str) {
+
+        let newStr = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
+        let reverseStr = newStr.split("").reverse().join("");
+        if (newStr !== reverseStr) {
+                return false;
+        }
+
     return true;
   }
   
