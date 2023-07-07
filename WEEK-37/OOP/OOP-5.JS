@@ -15,5 +15,9 @@ Constructors use the keyword this to set properties of the object they will crea
 Constructors define properties and behaviors instead of returning a value as other functions might.
 Create a constructor, Dog, with properties name, color, and numLegs that are set to a string, a string, and a number, respectively.
 
+Tests 
 
+Dog should have a name property set to a string.
+Dog should have a color property set to a string.
+Dog should have a numLegs property set to a number.
 */
