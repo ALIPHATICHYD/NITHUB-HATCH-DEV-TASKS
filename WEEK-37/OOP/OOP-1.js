@@ -20,3 +20,8 @@ Dog should be an object.
 Dog should have a name property set to a string.
 Dog should have a numLegs property set to a number.
 */
+
+let dog ={
+  name: "Pakku",
+  numLegs: 2
+}
