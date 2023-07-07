@@ -14,4 +14,9 @@ let duck = {
 this is a deep topic, and the above example is only one way to use it. In the current context, this refers to the object that the method is associated with: duck. If the object's name is changed to mallard, it is not necessary to find all the references to duck in the code. It makes the code reusable and easier to read.
 
 Modify the dog.sayLegs method to remove any references to dog. Use the duck example for guidance.
+
+Tests
+
+dog.sayLegs() should return the given string.
+Your code should use the this keyword to access the numLegs property of dog.
 */
