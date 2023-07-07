@@ -12,6 +12,11 @@ let duck = {
   numLegs: 2
 };
 This duck object has two property/value pairs: a name of Aflac and a numLegs of 2.
-
 Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
+
+Tests 
+
+Dog should be an object.
+Dog should have a name property set to a string.
+Dog should have a numLegs property set to a number.
 */
