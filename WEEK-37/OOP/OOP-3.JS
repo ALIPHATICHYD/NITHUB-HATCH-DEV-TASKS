@@ -18,3 +18,11 @@ Tests
 dog.sayLegs() should be a function.
 dog.sayLegs() should return the given string - note that punctuation and spacing matter.
 */
+
+let dog = {
+    name: "Spot",
+    numLegs: 4,
+  
+  };
+  
+  dog.sayLegs();
