@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.12.18",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "typescript": "^5.0.4"
