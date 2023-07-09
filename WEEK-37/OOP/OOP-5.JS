@@ -23,3 +23,8 @@ Dog should have a numLegs property set to a number.
 */
 
 
+function(){
+  this.name = "Pakku";
+  this.color = "Brown";
+  this.numLegs = 4;
+}
