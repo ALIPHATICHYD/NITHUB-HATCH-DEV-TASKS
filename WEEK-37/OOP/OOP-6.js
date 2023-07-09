@@ -27,3 +27,11 @@ Tests
 hound should be created using the Dog constructor.
 Your code should use the new operator to create an instance of Dog.
 */
+
+function Dog(){
+    this.name = "Pakku";
+    this.color = "Brown";
+    this.numLegs = 4;
+    }
+    let hound = new Dog();
+    
