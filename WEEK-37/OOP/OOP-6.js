@@ -21,4 +21,9 @@ blueBird.name = 'Elvira';
 blueBird.name;
 Use the Dog constructor from the last lesson to create a new instance of Dog, assigning it to a variable hound.
 
+
+Tests 
+
+hound should be created using the Dog constructor.
+Your code should use the new operator to create an instance of Dog.
 */
