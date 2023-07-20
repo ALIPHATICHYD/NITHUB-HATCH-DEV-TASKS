@@ -47,23 +47,29 @@ convertToRoman(1023) should return the string MXXIII
 */
 
 function convertToRoman(num) {
-    let roman = "";
-    let romanNumeral = {
-        M: 1000,
-        CM: 900,
-        D: 500,
-        CD: 400,
-        C: 100,
-        XC:90,
-        L: 50,
-        XL: 40,
-        X: 10,
-        IX: 9,
-        V: 5,
-        IV:4,
-        I: 1
-    };
-    return num;
-   }
-   
-   convertToRoman(36);
+  const romanNumerals = [
+    { value: 1000, numeral: 'M' },
+    { value: 900, numeral: 'CM' },
+    { value: 500, numeral: 'D' },
+    { value: 400, numeral: 'CD' },
+    { value: 100, numeral: 'C' },
+    { value: 90, numeral: 'XC' },
+    { value: 50, numeral: 'L' },
+    { value: 40, numeral: 'XL' },
+    { value: 10, numeral: 'X' },
+    { value: 9, numeral: 'IX' },
+    { value: 5, numeral: 'V' },
+    { value: 4, numeral: 'IV' },
+    { value: 1, numeral: 'I' },
+  ];
+
+  let result = '';
+  for (const roman of romanNumerals) {
+    while (num >= roman.value) {
+      result += roman.numeral;
+      num -= roman.value;
+    }
+  }
+  return result;
+}
+
