@@ -4,6 +4,7 @@ class CustomNode{
 
     constructor(value: number){
         this.value = value;
+        // this.next = null;
     }
 }
 
@@ -57,6 +58,16 @@ class CustomLinkedList{
             currentNode = currentNode.next;
             counter++;
         }
+    }
+
+
+    traverse() {
+        if (!this.head)return;
+    
+    let currentNode = this.head;  
+    while (currentNode){
+        console.log(currentNode.value);
+        currentNode = currentNode.next;
     }
 
 }
