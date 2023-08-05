@@ -1,6 +1,6 @@
 class CustomNode{
     public value: number
-    public next: CustomNode | null;
+    public next: CustomNode | null = null;
 
     constructor(value: number){
         this.value = value;
@@ -9,7 +9,7 @@ class CustomNode{
 
 class CustomLinkedList{
 
-    private head: CustomNode | null
+    private head: CustomNode | null = null
 
 
 
@@ -19,6 +19,7 @@ class CustomLinkedList{
         // if we have an empty list
         if(this.head === null){
             this.head = newNode;
+            return;
         }
 
         let currentNode = this.head;
