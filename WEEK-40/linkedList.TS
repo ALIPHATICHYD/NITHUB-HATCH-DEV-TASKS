@@ -30,6 +30,35 @@ class CustomLinkedList{
         currentNode.next = newNode;
     }
 
+    addNewHead(value: number): void{
+        const newNode = new CustomNode(value);
+
+        newNode.next = this.head;
+        this.head = newNode;
+    }
+
+    addModeAtPosition(value: number, position: number){
+        if (position < 0)
+            throw new Error("Invalid position given");
+
+            const newNode = new CustomNode(value);
+            let counter: number = 0;
+
+        let currentNode = this.head;
+        let previousNode = this.head;
+
+        while (currentNode){
+            if (counter === position){
+                previousNode!.next = newNode;
+                newNode.next = currentNode;
+                break;
+            }
+            previousNode = currentNode;
+            currentNode = currentNode.next;
+            counter++;
+        }
+    }
+
 }
 
 
@@ -42,6 +71,8 @@ function main(){
     list.add(20);
     list.add(30);
     list.add(40);
+    list.addNewHead(-90);
+    list.addModeAtPosition(1,3);
 
     console.log(list);
 }
